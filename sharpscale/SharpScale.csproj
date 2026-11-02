@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>SharpScale</AssemblyName>
+    <RootNamespace>SharpScale</RootNamespace>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <DebugType>portable</DebugType>
+    <!-- Override with /p:VSInstall=... to build against a different game install. -->
+    <VSInstall Condition="'$(VSInstall)' == ''">$(APPDATA)\Vintagestory</VSInstall>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony" HintPath="$(VSInstall)\Lib\0Harmony.dll" Private="false" />
+    <Reference Include="OpenTK.Graphics" HintPath="$(VSInstall)\Lib\OpenTK.Graphics.dll" Private="false" />
+    <Reference Include="OpenTK.Mathematics" HintPath="$(VSInstall)\Lib\OpenTK.Mathematics.dll" Private="false" />
+    <Reference Include="Newtonsoft.Json" HintPath="$(VSInstall)\Lib\Newtonsoft.Json.dll" Private="false" />
+    <Reference Include="VintagestoryAPI" HintPath="$(VSInstall)\VintagestoryAPI.dll" Private="false" />
+    <Reference Include="VintagestoryLib" HintPath="$(VSInstall)\VintagestoryLib.dll" Private="false" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "fotsagapfill",
+  "name": "FotSA Gap-Fill (staged)",
+  "authors": [
+    "Nick (generated)"
+  ],
+  "description": "Adds missing Stone Age fauna as variants of installed Fauna of the Stone Age packs (plus one own-domain entity derived from the vanilla bear). Requires the donor packs.",
+  "version": "0.2.0",
+  "side": "Universal"
+}

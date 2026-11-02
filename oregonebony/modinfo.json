@@ -1,0 +1,10 @@
+{
+    "type": "content",
+    "modid": "oregonebony",
+    "name": "Oregon Ebony",
+    "authors": ["Muse"],
+    "description": "Adds an ebony tree generation row for cool, very wet temperate forest (the Pacific Northwest envelope) in Earth worlds. New chunks only.",
+    "version": "0.1.0",
+    "side": "Server",
+    "dependencies": { "game": "1.22.0" }
+}

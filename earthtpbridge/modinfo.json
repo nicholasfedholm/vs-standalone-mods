@@ -1,0 +1,17 @@
+{
+  "type": "code",
+  "modid": "earthtpbridge",
+  "name": "Earth x Terra Prety Bridge",
+  "authors": [ "Nick" ],
+  "description": "In Andris Earth worlds only: stands Terra Prety's patches down and adds Terra Prety landform detail on top of Earth's real-world heights, faded out near rivers and coasts.",
+  "version": "0.1.0",
+  "license": "GPL-3.0",
+  "side": "Server",
+  "requiredOnClient": false,
+  "requiredOnServer": true,
+  "dependencies": {
+    "game": "1.22.0",
+    "earth": "1.0.1",
+    "terraprety": "*"
+  }
+}

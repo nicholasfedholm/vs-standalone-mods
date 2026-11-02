@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "sharpscale",
+  "name": "SharpScale",
+  "version": "0.2.0",
+  "side": "Client",
+  "requiredOnClient": false,
+  "requiredOnServer": false,
+  "dependencies": { "game": "1.22.0" },
+  "authors": ["Nick"],
+  "description": "Replaces the nearest-neighbour upscale used when render scale is below 1 with a bilinear plus contrast-adaptive sharpening pass, or an FSR 1 (EASU + RCAS) pass."
+}

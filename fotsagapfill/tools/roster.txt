@@ -1,0 +1,84 @@
+## FotSA-Bovinae-v0.3.6.zip adults=1
+bovinae-adult.json :: [('age', '[ "adult"]'), ('gender', '[ "female","male"]'), ('type', '[ "bosprimigeniusprimigenius","boselaphustragocamelus","bubalusarnee","bubalusbrevicornis","bubaluscebuensis","bubalusdepressicornis","bubalusgrovesi","bubalusmephistopheles","bubalusmindorensis","bubalusmurrensis","bubalusquarlesi","pseudoryxnghetinhensis","syncerusantiquus","synceruscaffer","syncerusnanus","taurotragusderbianus","taurotragusoryx","tetracerusquadricornis","tragelaphusangasii","tragelaphusbuxtoni","tragelaphuseurycerus","tragelaphusimberbis","tragelaphusscriptus","tragelaphusspekii","tragelaphusstrepsiceros","tragelaphussylvaticus"]')]
+ config: 
+## FotSA-Caninae-v1.1.10.zip adults=4
+canina-adult.json :: [('age', '[ "adult"]'), ('gender', '[ "female","male"]'), ('genus', '[ "aenocyon","canis","cuon","cynotherium","lupulella","lycaon"]')]
+cerdocyonina-adult.json :: [('age', '[ "adult"]'), ('gender', '[ "female","male"]'), ('genus', '[ "atelocynus","cerdocyon","chrysocyon","dusicyon","lycalopex","speothos"]')]
+urocyonini-adult.json :: [('age', '[ "adult"]'), ('gender', '[ "female","male"]'), ('genus', '[ "urocyon"]')]
+vulpini-adult.json :: [('age', '[ "adult"]'), ('gender', '[ "female","male"]'), ('genus', '[ "nyctereutes","otocyon","vulpes"]')]
+ config: assets/caninae/patches/survival-config-preloaded-tags.json
+## FotSA-Capreolinae-v2.0.20.zip adults=3
+alceini-adult.json :: [('age', '[ "adult" ]'), ('gender', '[ "female","male"]'), ('type', '["alcesalces","cervalcesscotti" ]')]
+capreolini-adult.json :: [('age', '[ "adult" ]'), ('gender', '[ "female","male"]'), ('type', '["capreoluscapreolus","capreoluspygargus","hydropotesinermis" ]')]
+odocoileini-adult.json :: [('age', '[ "adult" ]'), ('gender', '[ "female","male"]'), ('type', '["antiferultra","blastocerusdichotomus","bretzianebrascensis","hippocamelusantisensis","hippocamelusbisulcus","mazamaamericana","mazamabricenii","mazamajucunda","mazamanana","mazamarufa","mazamarufina","mazamatemama","mazamatienhoveni","odocoileushemionus","odocoileuslucasi","odocoileuspandora","odocoileusvirginianus","ozotocerosbezoarticus","passalitesnemorivaga","pudellacarlae","pudellamephistophiles","pudupuda","rangiferarcticus","rangifercaribou","rangiferfennicus","rangifergroenlandicus","rangiferplatyrhynchus","rangifertarandus","subulochunyi","subulogouazoubira","torontoceroshypnogeos" ]')]
+ config: assets/capreolinae/patches/survival-config-preloaded-tags.json
+## FotSA-Casuariidae-v1.1.14.zip adults=4
+anatidae-adult.json :: [('anatidae', '["adult"]'), ('gender', '["male", "female"]'), ('type', '["cereopsisnovaehollandiae" ]')]
+casuariidae-adult.json :: [('age', '["adult"]'), ('gender', '["male", "female"]'), ('type', '["bennetti", "casuarius", "novaehollandiae","novaehollandiaediemenensis","unappendiculatus" ]')]
+dromornithidae-adult.json :: [('dromornithidae', '["adult"]'), ('gender', '["male", "female"]'), ('type', '["genyornisnewtoni"]')]
+rallidae-adult.json :: [('rallidae', '["adult"]'), ('gender', '["male", "female"]'), ('type', '["tribonyxmortierii"]')]
+ config: assets/casuariidae/patches/survival-config-preloaded-tags.json
+## FotSA-Cervinae-v0.1.17.zip adults=1
+cervini-adult.json :: [('age', '[ "adult" ]'), ('gender', '[ "female","male"]'), ('type', '[ "megalocerosgiganteus"]')]
+ config: assets/cervinae/patches/survival-config-preloaded-tags.json
+## FotSA-Chelonioidea-v1.0.10.zip adults=1
+chelonioidea-adult.json :: [('chelonioidea', '["adult"]'), ('gender', '["male", "female"]'), ('species', '["carettacaretta", "cheloniamydas", "dermochelyscoriacea","eretmochelysimbricata","lepidochelyskempii","lepidochelysolivacea","natatordepressus" ]')]
+ config: assets/chelonioidea/patches/survival-config-preloaded-tags.json
+## FotSA-Dinornithidae-v1.0.26.zip adults=10
+acanthisittidae-adult.json :: [('acanthisittidae', '["adult"]'), ('gender', '["male", "female"]'), ('type', '["acanthisittachloris","dendroscansordecurvirostris","pachyplichasjagmi","pachyplichasyaldwyni","traversialyalli","xenicusgilviventris","xenicuslongipes" ]')]
+aegothelidae-adult.json :: [('aegothelidae', '["adult"]'), ('gender', '["male", "female"]'), ('type', '["aegothelesnovaezealandiae" ]')]
+anatidae-adult.json :: [('anatidae', '["adult"]'), ('gender', '["male", "female"]'), ('type', '["anasaucklandica", "anaschlorotis", "anasnesiotis", "chenonettafinschi", "cnemiorniscalcitrans", "cnemiornisgracilis" ]')]
+apterygidae-adult.json :: [('apterygidae', '["adult"]'), ('gender', '["male", "female"]'), ('type', '["apteryxaustralis", "apteryxhaastii", "apteryxmantelli", "apteryxowenii", "apteryxrowi" ]')]
+aptornithidae-adult.json :: [('aptornithidae', '["adult"]'), ('gender', '["male", "female"]'), ('type', '["aptornisdefossor", "aptornisotidiformis" ]')]
+dinornithidae-adult.json :: [('age', '["adult"]'), ('gender', '["male", "female"]'), ('type', '["dinornisnovaezealandiae", "dinornisrobustus" ]')]
+emeidae-adult.json :: [('age', '["adult"]'), ('gender', '["male", "female"]'), ('type', '["anomalopteryxdidiformis", "emeuscrassus","euryapteryxcurtus","pachyornisaustralis","pachyorniselephantopus","pachyornisgeranoides" ]')]
+megalapterygidae-adult.json :: [('age', '["adult"]'), ('gender', '["male", "female"]'), ('type', '["megalapteryxdidinus" ]')]
+rallidae-adult.json :: [('rallidae', '["adult"]'), ('gender', '["male", "female"]'), ('type', '["cabalusmodestus","diaphorapteryxhawkinsi","gallirallusaustralis","hypotaenidiadieffenbachii","hypotaenidiaphilippensis","hypotaenidiasylvestris","lewiniamuelleri","porphyrioalbus","porphyriohochstetteri","porphyriomantelli","tribonyxhodgenorum"]')]
+strigopidae-adult.json :: [('strigopidae', '["adult"]'), ('gender', '["male", "female"]'), ('type', '["strigopshabroptila" ]')]
+ config: assets/dinornithidae/patches/survival-config-preloaded-tags.json
+## FotSA-Elephantidae-v1.0.22.zip adults=1
+elephantidae-adult.json :: [('age', '[ "adult" ]'), ('gender', '[ "female","male"]'), ('type', '[ "elephasmaximus","elephasmaximusborneensis","loxodontaafricana","loxodontacyclotis","mammuthuscolumbi","mammuthusexilis","mammuthusprimigenius","palaeoloxodoncypriotes"]')]
+ config: assets/elephantidae/patches/survival-config-preloaded-tags.json
+## FotSA-Felinae-v0.2.16.zip adults=1
+felinae-adult.json :: [('age', '[ "adult"]'), ('gender', '[ "female","male"]'), ('type', '[ "caracalcaracal","lynxcanadensis","lynxlynx","lynxpardinus"]')]
+ config: assets/felinae/patches/survival-config-preloaded-tags.json
+## FotSA-Iniidae-v0.1.8.zip adults=1
+iniidae-adult.json :: [('cetacea', '["adult"]'), ('gender', '["male","female"]'), ('type', '["lipotesvexillifer" ]')]
+ config: assets/iniidae/patches/survival-config-preloaded-tags.json
+## FotSA-Machairodontinae-v1.1.13.zip adults=1
+machairodontinae-adult.json :: [('age', '[ "adult"]'), ('gender', '[ "female","male"]'), ('genus', '[ "homotherium", "smilodon" ]')]
+ config: assets/machairodontinae/patches/survival-config-preloaded-tags.json
+## FotSA-Manidae-v1.0.24.zip adults=1
+manidae-adult.json :: [('age', '[ "adult" ]'), ('gender', '[ "female","male"]'), ('type', '[ "crassicaudata","culionensis","gigantea","javanica","mysteria","pentadactyla","temminckii","tetradactyla","tricuspis"]')]
+ config: assets/manidae/patches/survival-config-preloaded-tags.json
+## FotSA-Meiolaniidae-v0.1.13.zip adults=1
+meiolaniidae-adult.json :: [('meiolaniidae', '["adult"]'), ('gender', '["male", "female"]'), ('type', '["ninjemysoweni"]')]
+ config: assets/meiolaniidae/patches/survival-config-preloaded-tags.json
+## FotSA-Moschidae-v1.0.0.zip adults=1
+moschidae-adult.json :: [('moschidae', '[ "adult" ]'), ('gender', '[ "female","male"]'), ('type', '["moschusanhuiensis","moschusberezovskii","moschuscupreus","moschusfuscus","moschusmoschiferus" ]')]
+ config: assets/moschidae/patches/survival-config-preloaded-tags.json
+## FotSA-Pantherinae-v1.2.18.zip adults=2
+pantherinae-neofelis-adult.json :: [('age', '[ "adult"]'), ('gender', '[ "female","male"]'), ('species', '[ "diardi", "nebulosa" ]')]
+pantherinae-panthera-adult.json :: [('age', '[ "adult"]'), ('gender', '[ "female","male"]'), ('species', '[ "atrox","leo","onca","pardus","spelaea","tigris","uncia" ]')]
+ config: assets/pantherinae/patches/survival-config-preloaded-tags.json
+## FotSA-Rhinocerotidae-v1.0.29.zip adults=1
+rhinocerotidae-adult.json :: [('rhinocerotidae', '[ "adult" ]'), ('gender', '[ "female","male"]'), ('type', '[ "ceratotheriumsimum","coelodontaantiquitatis","dicerorhinussumatrensis","dicerosbicornis","rhinocerossondaicus","rhinocerosunicornis"]')]
+ config: assets/rhinocerotidae/config/configlib-patches.json,assets/rhinocerotidae/patches/survival-config-preloaded-tags.json
+## FotSA-Sirenia-v1.0.33.zip adults=1
+sirenia-adult.json :: [('sirenia', '["adult"]'), ('gender', '["male", "female"]'), ('species', '["dugon", "gigas", "inunguis","manatus","senegalensis" ]')]
+ config: assets/sirenia/patches/survival-config-preloaded-tags.json
+## FotSA-Spheniscidae-v1.0.19.zip adults=1
+spheniscidae-adult.json :: [('spheniscidae', '["adult"]'), ('gender', '["male", "female"]'), ('type', '["aptenodytesforsteri","aptenodytespatagonicus","eudypteschrysocome","eudypteschrysolophus","eudyptesmoseleyi","eudyptespachyrhynchus","eudyptesrobustus","eudyptessclateri","eudyptesschlegeli","eudypteswarhami","eudyptulaminor","eudyptulanovaehollandiae","megadyptesantipodes","pygoscelisadeliae","pygoscelisantarcticus","pygoscelispapua","spheniscusdemersus","spheniscushumboldti","spheniscusmagellanicus","spheniscusmendiculus" ]')]
+ config: assets/spheniscidae/patches/survival-config-preloaded-tags.json
+## FotSA-Thylacinidae-v0.1.8.zip adults=1
+dasyuridae-adult.json :: [('dasyuridae', '[ "adult" ]'), ('gender', '[ "female","male"]'), ('type', '[ "sarcophilusharrisii","sarcophiluslaniarius"]')]
+ config: assets/thylacinidae/patches/survival-config-preloaded-tags.json
+## FotSA-Viverridae-v1.0.11.zip adults=2
+nandiniidae-adult.json :: [('nandiniidae', '[ "adult" ]'), ('gender', '[ "female","male"]'), ('type', '[ "nandiniabinotata"]')]
+viverridae-adult.json :: [('age', '[ "adult" ]'), ('gender', '[ "female","male"]'), ('type', '["arctictisbinturong","arctogalidiatrivirgata","chrotogaleowstoni","civettictiscivetta","cynogalebennettii","diplogalehosei","genettaabyssinica","genettaangolensis","genettabourloni","genettacristata","genettagenetta","genettajohnstoni","genettamaculata","genettapardina","genettapiscivora","genettaplesictoides","genettapoensis","genettaservalina","genettathierryi","genettatigrina","genettavictoriae","hemigalusderbyanus","macrogalidiamusschenbroekii","pagumalarvata","paradoxurushermaphroditus","paradoxurusjerdoni","paradoxuruszeylonensis","poianaleightoni","poianarichardsonii","viverracivettina","viverramegaspila","viverratangalunga","viverrazibetha","viverriculaindica"]')]
+ config: assets/viverridae/patches/survival-config-preloaded-tags.json
+## FotSA-Vombatidae-v0.4.8.zip adults=3
+diprotodontidae-adult.json :: [('diprotodontidae', '[ "adult" ]'), ('gender', '[ "female","male"]'), ('type', '[ "zygomaturustrilobus"]')]
+thylacoleonidae-adult.json :: [('thylacoleonidae', '[ "adult" ]'), ('gender', '[ "female","male"]'), ('type', '[ "thylacoleocarnifex"]')]
+vombatidae-adult.json :: [('vombatidae', '[ "adult" ]'), ('gender', '[ "female","male"]'), ('type', '[ "lasiorhinuskrefftii","lasiorhinuslatifrons","phascolonusgigas","vombatushacketti","vombatusursinus"]')]
+ config: assets/vombatidae/patches/survival-config-preloaded-tags.json

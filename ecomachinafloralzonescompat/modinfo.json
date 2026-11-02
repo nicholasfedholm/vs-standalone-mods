@@ -1,0 +1,16 @@
+{
+  "type": "content",
+  "modid": "ecomachinafloralzones",
+  "name": "Eco Machina x Floral Zones Compat",
+  "authors": [
+    "local compat patch"
+  ],
+  "description": "Lets Eco Machina's foliage treatment apply to Floral Zones Cape Region trees and the small Circumboreal white spruce, which generate with -placed- leaves that Eco Machina skips. Patches only apply when Eco Machina and the matching Floral Zones pack are loaded.",
+  "version": "1.0.0",
+  "side": "Universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true,
+  "dependencies": {
+    "game": "1.22.0"
+  }
+}

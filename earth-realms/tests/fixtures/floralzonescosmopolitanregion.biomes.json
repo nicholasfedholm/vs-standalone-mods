@@ -1,0 +1,308 @@
+{
+ "NorthernRealms": [
+  "pacific nearctic",
+  "atlantic nearctic",
+  "atlantic palearctic",
+  "central palearctic",
+  "eastern palearctic",
+  "pacific palearctic"
+ ],
+ "SouthernRealms": [
+  "pacific neotropic",
+  "atlantic neotropic",
+  "atlantic afrotropic",
+  "eastern afrotropic",
+  "australasian",
+  "oceanic"
+ ],
+ "TreeBiomes": {
+  "alnusalnobetula": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "alnusalnobetulashrub": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "caricapapaya": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "pacific neotropic",
+   "atlantic neotropic"
+  ],
+  "cocosnucifera": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic",
+   "pacific neotropic",
+   "atlantic neotropic",
+   "eastern afrotropic",
+   "australasian",
+   "oceanic"
+  ],
+  "lagunculariaracemosa": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "pacific neotropic",
+   "atlantic neotropic"
+  ],
+  "rhizophoramangle": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "pacific neotropic",
+   "atlantic neotropic",
+   "atlantic afrotropic"
+  ],
+  "sonneratiacaseolaris": [
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic",
+   "eastern afrotropic",
+   "australasian",
+   "oceanic"
+  ]
+ },
+ "BlockPatchBiomes": {
+  "*-cucurbitaficifolia-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "pacific neotropic",
+   "atlantic neotropic"
+  ],
+  "*-empetrumnigrum-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic",
+   "atlantic neotropic"
+  ],
+  "*-juniperuscommunis-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-rubuschamaemorus-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-vanillaplanifolia-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "pacific neotropic",
+   "atlantic neotropic"
+  ],
+  "*-alliumsativum-*": [
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic"
+  ],
+  "*-ipomoeabatatas-*": [
+   "pacific nearctic",
+   "pacific neotropic",
+   "atlantic neotropic",
+   "oceanic"
+  ],
+  "*-phaseolusvulgaris-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "pacific neotropic",
+   "atlantic neotropic"
+  ],
+  "*-zeamays-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "pacific neotropic",
+   "atlantic neotropic"
+  ],
+  "*-chamaenerionangustifolium-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-cladoniarangiferina-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-crinumasiaticum-*": [
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic",
+   "australasian",
+   "oceanic"
+  ],
+  "*-ludwigiapeploides": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "pacific neotropic",
+   "atlantic neotropic",
+   "australasian"
+  ],
+  "*-ludwigiapeploides-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "pacific neotropic",
+   "atlantic neotropic",
+   "australasian"
+  ],
+  "*-menyanthestrifoliata": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-menyanthestrifoliata-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-rhododendrontomentosum-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-surianamaritima-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic",
+   "eastern afrotropic",
+   "australasian",
+   "pacific neotropic",
+   "atlantic neotropic"
+  ],
+  "*-acrostichumaureum": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic",
+   "pacific neotropic",
+   "atlantic neotropic",
+   "atlantic afrotropic",
+   "eastern afrotropic",
+   "australasian",
+   "oceanic"
+  ],
+  "*-austroblechnumpennamarina": [
+   "pacific neotropic",
+   "atlantic neotropic",
+   "australasian",
+   "oceanic"
+  ],
+  "*-cocosnucifera": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic",
+   "pacific neotropic",
+   "atlantic neotropic",
+   "eastern afrotropic",
+   "australasian",
+   "oceanic"
+  ],
+  "*-bolboschoenusmaritimus-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "*-phragmitesaustralis-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic",
+   "atlantic afrotropic",
+   "eastern afrotropic",
+   "australasian"
+  ],
+  "*-ulvalactuca": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic",
+   "pacific neotropic",
+   "atlantic neotropic",
+   "atlantic afrotropic",
+   "eastern afrotropic",
+   "australasian",
+   "oceanic"
+  ],
+  "*-cabombacaroliniana-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "pacific neotropic",
+   "atlantic neotropic"
+  ],
+  "*-lagunculariaracemosa": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "pacific neotropic",
+   "atlantic neotropic"
+  ],
+  "*-pistiastratiotes": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic",
+   "pacific neotropic",
+   "atlantic neotropic",
+   "atlantic afrotropic",
+   "eastern afrotropic",
+   "australasian"
+  ],
+  "*-utriculariagibba": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ]
+ }
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "op": "replace",
+    "file": "floralzonescaperegion:blocktypes/plant/leaves/normal.json",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-placed*-*": [
+        {
+          "name": "PushEventOnBlockBroken",
+          "properties": {
+            "eventname": "testForDecay"
+          }
+        },
+        {
+          "name": "RainDrip"
+        }
+      ],
+      "*-grown-*": [
+        {
+          "name": "PushEventOnBlockBroken",
+          "properties": {
+            "eventname": "testForDecay"
+          }
+        },
+        {
+          "name": "RainDrip"
+        }
+      ],
+      "*": [
+        {
+          "name": "RainDrip"
+        }
+      ]
+    },
+    "dependsOn": [
+      {
+        "modid": "floralzonescaperegion"
+      },
+      {
+        "modid": "vsecomachina"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "file": "floralzonescaperegion:blocktypes/plant/leaves/normal.json",
+    "path": "/attributes/canDecayByType/*-grown-*",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "floralzonescaperegion"
+      },
+      {
+        "modid": "vsecomachina"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "file": "floralzonescaperegion:blocktypes/plant/leaves/branchy.json",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-placed*-*": [
+        {
+          "name": "PushEventOnBlockBroken",
+          "properties": {
+            "eventname": "testForDecay"
+          }
+        },
+        {
+          "name": "RainDrip"
+        }
+      ],
+      "*-grown-*": [
+        {
+          "name": "PushEventOnBlockBroken",
+          "properties": {
+            "eventname": "testForDecay"
+          }
+        },
+        {
+          "name": "RainDrip"
+        }
+      ],
+      "*": [
+        {
+          "name": "RainDrip"
+        }
+      ]
+    },
+    "dependsOn": [
+      {
+        "modid": "floralzonescaperegion"
+      },
+      {
+        "modid": "vsecomachina"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "file": "floralzonescaperegion:blocktypes/plant/leaves/branchy.json",
+    "path": "/attributes/canDecayByType/*-grown-*",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "floralzonescaperegion"
+      },
+      {
+        "modid": "vsecomachina"
+      }
+    ]
+  }
+]

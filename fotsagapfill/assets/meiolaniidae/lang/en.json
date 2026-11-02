@@ -1,0 +1,18 @@
+{
+ "item-creature-meiolaniidae-adult-female-doedicurusclavicaudatus": "Doedicurus (Female)",
+ "item-creature-meiolaniidae-adult-male-doedicurusclavicaudatus": "Doedicurus (Male)",
+ "item-creature-meiolaniidae-baby-female-doedicurusclavicaudatus": "Doedicurus Calf (Female)",
+ "item-creature-meiolaniidae-baby-male-doedicurusclavicaudatus": "Doedicurus Calf (Male)",
+ "item-dead-creature-meiolaniidae-adult-female-doedicurusclavicaudatus": "Dead Doedicurus (Female)",
+ "item-dead-creature-meiolaniidae-adult-male-doedicurusclavicaudatus": "Dead Doedicurus (Male)",
+ "item-dead-creature-meiolaniidae-baby-female-doedicurusclavicaudatus": "Dead Doedicurus Calf (Female)",
+ "item-dead-creature-meiolaniidae-baby-male-doedicurusclavicaudatus": "Dead Doedicurus Calf (Male)",
+ "item-pelt-female-doedicurusclavicaudatus": "Doedicurus Shell (Female)",
+ "item-pelt-male-doedicurusclavicaudatus": "Doedicurus Shell (Male)",
+ "item-taxidermy-female-doedicurusclavicaudatus": "Doedicurus Taxidermy (Female)",
+ "item-taxidermy-male-doedicurusclavicaudatus": "Doedicurus Taxidermy (Male)",
+ "game:prefixandcreature-meiolaniidae-adult-female-doedicurusclavicaudatus": "a doedicurus",
+ "game:prefixandcreature-meiolaniidae-adult-male-doedicurusclavicaudatus": "a doedicurus",
+ "game:prefixandcreature-meiolaniidae-baby-female-doedicurusclavicaudatus": "a doedicurus calf",
+ "game:prefixandcreature-meiolaniidae-baby-male-doedicurusclavicaudatus": "a doedicurus calf"
+}

@@ -1,0 +1,103 @@
+{
+ "TreeBiomes": {
+  "acaciaaneura": [
+   "australasian"
+  ],
+  "acaciatetragonophylla": [
+   "australasian"
+  ],
+  "brachychitongregorii": [
+   "australasian"
+  ],
+  "corymbiaaparrerinja": [
+   "australasian"
+  ],
+  "corymbiaaparrerinjacrooked": [
+   "australasian"
+  ],
+  "eucalyptuscamaldulensis": [
+   "australasian"
+  ],
+  "eucalyptuscamaldulensislarge": [
+   "australasian"
+  ]
+ },
+ "BlockPatchBiomes": {
+  "*-allocasuarinarobusta-*": [
+   "australasian"
+  ],
+  "*-atriplexnummularia-*": [
+   "australasian"
+  ],
+  "*-byblispilbarana-*": [
+   "australasian"
+  ],
+  "*-calandriniabalonensis-*": [
+   "australasian"
+  ],
+  "*-calytrixtetragona-*": [
+   "australasian"
+  ],
+  "*-enchylaenatomentosa-*": [
+   "australasian"
+  ],
+  "*-eremophilalatrobei-*": [
+   "australasian"
+  ],
+  "*-eucalyptussocialis-*": [
+   "australasian"
+  ],
+  "*-gossypiumsturtianum-*": [
+   "australasian"
+  ],
+  "*-hakearostrata-*": [
+   "australasian"
+  ],
+  "*-ipomoeacostata-*": [
+   "australasian"
+  ],
+  "*-ixodiaachillaeoides-*": [
+   "australasian"
+  ],
+  "*-macrozamiamacdonnellii": [
+   "australasian"
+  ],
+  "*-maireanasedifolia-*": [
+   "australasian"
+  ],
+  "*-polycalymmastuartii-*": [
+   "australasian"
+  ],
+  "*-ptilotusexaltatus-*": [
+   "australasian"
+  ],
+  "*-ptilotusxerophilus-*": [
+   "australasian"
+  ],
+  "*-sennapleurocarpa-*": [
+   "australasian"
+  ],
+  "*-tecticorniaverrucosa-*": [
+   "australasian"
+  ],
+  "*-thryptomenemicrantha-*": [
+   "australasian"
+  ],
+  "*-xanthorrhoeathorntonii-*": [
+   "australasian"
+  ],
+  "*-solanumellipticum-*": [
+   "australasian"
+  ],
+  "*-swainsonaformosa-*": [
+   "australasian"
+  ],
+  "*-themedatriandra-*": [
+   "eastern afrotropic",
+   "australasian"
+  ],
+  "*-triodiascariosa-*": [
+   "australasian"
+  ]
+ }
+}

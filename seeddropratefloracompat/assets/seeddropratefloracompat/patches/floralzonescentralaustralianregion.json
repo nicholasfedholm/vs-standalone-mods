@@ -1,0 +1,26 @@
+[
+  {
+    "file": "floralzonescentralaustralianregion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/avg",
+    "value": 0.25
+  },
+  {
+    "file": "floralzonescentralaustralianregion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/var",
+    "value": 0
+  },
+  {
+    "file": "floralzonescentralaustralianregion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/avg",
+    "value": 0.25
+  },
+  {
+    "file": "floralzonescentralaustralianregion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/var",
+    "value": 0
+  }
+]

@@ -1,0 +1,135 @@
+{
+ "NorthernRealms": [
+  "pacific nearctic",
+  "atlantic nearctic",
+  "atlantic palearctic",
+  "central palearctic",
+  "eastern palearctic",
+  "pacific palearctic"
+ ],
+ "SouthernRealms": [
+  "pacific neotropic",
+  "atlantic neotropic",
+  "atlantic afrotropic",
+  "eastern afrotropic",
+  "australasian",
+  "oceanic"
+ ],
+ "TreeBiomes": {
+  "laurusnobilis": [
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "laurusnobilisshrub": [
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "pinushalepensis": [
+   "atlantic palearctic"
+  ],
+  "pinushalepensisshrub": [
+   "atlantic palearctic"
+  ],
+  "populusalba": [
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "quercusilex": [
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "taxusbaccata": [
+   "atlantic palearctic"
+  ]
+ },
+ "BlockPatchBiomes": {
+  "*-capparisspinosa-*": [
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "*-vitisvinifera-*": [
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "*-armoraciarusticana-*": [
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "*-chamaeropshumilis": [
+   "atlantic palearctic"
+  ],
+  "*-acanthusspinosus-*": [
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "*-antirrhinummajus-*": [
+   "atlantic palearctic"
+  ],
+  "*-asparagusalbus-*": [
+   "atlantic palearctic"
+  ],
+  "*-calendulaarvensis-*": [
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "*-centaureagymnocarpa-*": [
+   "atlantic palearctic"
+  ],
+  "*-cyclamenafricanum-*": [
+   "atlantic palearctic"
+  ],
+  "*-cynaracardunculus-*": [
+   "atlantic palearctic"
+  ],
+  "*-dianthuscaryophyllus-*": [
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "*-drosophyllumlusitanicum-*": [
+   "atlantic palearctic"
+  ],
+  "*-ephedrafragilis-*": [
+   "atlantic palearctic"
+  ],
+  "*-ericaarborea-*": [
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern afrotropic"
+  ],
+  "*-euphorbiamyrsinites-*": [
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "*-euphorbiaresinifera-*": [
+   "atlantic palearctic"
+  ],
+  "*-narcissusjonquilla-*": [
+   "atlantic palearctic"
+  ],
+  "*-orchisitalica-*": [
+   "atlantic palearctic"
+  ],
+  "*-sempervivumtectorum-*": [
+   "atlantic palearctic"
+  ],
+  "*-silybummarianum-*": [
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern afrotropic"
+  ],
+  "*-tracheliumcaeruleum-*": [
+   "atlantic palearctic"
+  ],
+  "*-ulexeuropaeus-*": [
+   "atlantic palearctic"
+  ],
+  "*-ferulacommunis-*": [
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "*-spartiumjunceum-*": [
+   "atlantic palearctic",
+   "central palearctic"
+  ]
+ }
+}

@@ -1,0 +1,127 @@
+{
+ "TreeBiomes": {
+  "afrocarpusfalcatus*": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "afrocarpusfalcatuslarge": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "diospyroswhyteana": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "leucadendronargenteum": [
+   "atlantic afrotropic"
+  ],
+  "shrubleucadendronargenteum": [
+   "atlantic afrotropic"
+  ],
+  "ocoteabullata": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "pterocelastrustricuspidatus": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "pterocelastrustricuspidatuslarge": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "shrubpterocelastrustricuspidatus": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "searsialancea": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ]
+ },
+ "BlockPatchBiomes": {
+  "*-strelitziaalba-*": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "*-hydnoraafricana-*": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "*-carpobrotusacinaciformis-*": [
+   "atlantic afrotropic"
+  ],
+  "*-asparagusscandens": [
+   "atlantic afrotropic"
+  ],
+  "*-geissorhizaradians-*": [
+   "atlantic afrotropic"
+  ],
+  "*-amaryllisbelladonna-*": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "*-disapurpurescens-*": [
+   "atlantic afrotropic"
+  ],
+  "*-droseraregia-*": [
+   "atlantic afrotropic"
+  ],
+  "*-elegiafenestrata-*": [
+   "atlantic afrotropic"
+  ],
+  "*-elytropappusrhinocerotis-*": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "*-ericacruenta-*": [
+   "atlantic afrotropic"
+  ],
+  "*-ericaericoides-*": [
+   "atlantic afrotropic"
+  ],
+  "*-euphorbiamauritanica-*": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "*-leucadendronsalignum-*": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "*-metalasiaaurea-*": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "*-mimetesfimbriifolius-*": [
+   "atlantic afrotropic"
+  ],
+  "*-proteacynaroides-*": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "*-roriduladentata-*": [
+   "atlantic afrotropic"
+  ],
+  "*-zantedeschiaaethiopica-*": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "*-eriocephalusafricanus-*": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ],
+  "*-serruriazeyheri-*": [
+   "atlantic afrotropic"
+  ],
+  "*-triboliumuniolae-*": [
+   "atlantic afrotropic"
+  ],
+  "*-aloesuccotrina-*": [
+   "atlantic afrotropic"
+  ],
+  "*-aponogetondistachyos": [
+   "atlantic afrotropic",
+   "eastern afrotropic"
+  ]
+ }
+}
