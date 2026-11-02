@@ -1,0 +1,22 @@
+{
+  "type": "content",
+  "modid": "seeddropratefloracompat",
+  "name": "Seed Drop Rate - Flora Zones Compat",
+  "description": "Applies Seed Drop Rate multipliers (crops x3, tree seeds x5) to Floral Zones crops and tree leaves.",
+  "authors": [
+    "Muse (for Nick)"
+  ],
+  "version": "1.0.1",
+  "dependencies": {
+    "game": "1.22.0",
+    "parsiuksseeddroprate": "1.2.0",
+    "floralzonescaperegion": "",
+    "floralzonescaribbeanregion": "",
+    "floralzonescentralaustralianregion": "",
+    "floralzonescircumborealregion": "",
+    "floralzonescosmopolitanregion": "",
+    "floralzoneseastasiaticregion": "",
+    "floralzonesmediterraneanregion": "",
+    "floralzonesneozeylandicregion": ""
+  }
+}

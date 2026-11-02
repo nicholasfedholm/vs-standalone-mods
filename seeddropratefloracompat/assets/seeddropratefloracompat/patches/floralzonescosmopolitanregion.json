@@ -1,0 +1,134 @@
+[
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/bean",
+    "op": "replace",
+    "path": "/dropsByType/*-9/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/bean",
+    "op": "replace",
+    "path": "/dropsByType/*-8/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/bean",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/garlic",
+    "op": "replace",
+    "path": "/dropsByType/*-7/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/garlic",
+    "op": "replace",
+    "path": "/dropsByType/*-6/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/garlic",
+    "op": "replace",
+    "path": "/dropsByType/*-5/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/garlic",
+    "op": "replace",
+    "path": "/dropsByType/*-4/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/garlic",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 2.1
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/avg",
+    "value": 0.25
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/var",
+    "value": 0
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/avg",
+    "value": 0.25
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/var",
+    "value": 0
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/maize",
+    "op": "replace",
+    "path": "/dropsByType/*-7/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/maize",
+    "op": "replace",
+    "path": "/dropsByType/*-6/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/maize",
+    "op": "replace",
+    "path": "/dropsByType/*-5/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/maize",
+    "op": "replace",
+    "path": "/dropsByType/*-4/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/maize",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 2.1
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/sweetpotato",
+    "op": "replace",
+    "path": "/dropsByType/*-7/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/sweetpotato",
+    "op": "replace",
+    "path": "/dropsByType/*-6/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/sweetpotato",
+    "op": "replace",
+    "path": "/dropsByType/*-5/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/sweetpotato",
+    "op": "replace",
+    "path": "/dropsByType/*-4/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/sweetpotato",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 2.1
+  }
+]

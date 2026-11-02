@@ -1,0 +1,118 @@
+{
+ "TreeBiomes": {
+  "abieskoreana": [
+   "eastern palearctic"
+  ],
+  "acerginnala": [
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "betulaplatyphylla": [
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "larixkaempferi": [
+   "pacific palearctic"
+  ],
+  "metasequoiaglyptostroboides": [
+   "eastern palearctic"
+  ],
+  "phyllostachysaurea": [
+   "eastern palearctic"
+  ],
+  "phyllostachysedulis": [
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "phyllostachysnigra": [
+   "eastern palearctic"
+  ],
+  "pinusdensiflora": [
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "quercusserrata": [
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "trachycarpusfortunei": [
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ]
+ },
+ "BlockPatchBiomes": {
+  "*-lyciumbarbarum-*": [
+   "eastern palearctic"
+  ],
+  "*-callistephuschinensis-*": [
+   "eastern palearctic"
+  ],
+  "*-deutziagracilis-*": [
+   "pacific palearctic"
+  ],
+  "*-hibiscussyriacus-*": [
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-iristyphifolia-*": [
+   "eastern palearctic"
+  ],
+  "*-liliumauratum-*": [
+   "pacific palearctic"
+  ],
+  "*-liliumlancifolium-*": [
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-linnaeaamabilis-*": [
+   "eastern palearctic"
+  ],
+  "*-loropetalumchinense-*": [
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-lycorisradiata-*": [
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-paeonialactiflora-*": [
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-platycodongrandiflorus-*": [
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-utriculariawarburgii-*": [
+   "eastern palearctic"
+  ],
+  "*-cycasrevoluta": [
+   "pacific palearctic"
+  ],
+  "*-polystichumpolyblepharum": [
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-luffaaegyptiaca-*": [
+   "central palearctic",
+   "eastern palearctic"
+  ],
+  "*-petasitesjaponicus-*": [
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-fargesianitida-*": [
+   "eastern palearctic"
+  ],
+  "*-puerariamontana-*": [
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic",
+   "australasian",
+   "oceanic"
+  ]
+ }
+}

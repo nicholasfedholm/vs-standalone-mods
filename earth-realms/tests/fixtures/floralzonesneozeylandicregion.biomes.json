@@ -1,0 +1,137 @@
+{
+ "NorthernRealms": [
+  "pacific nearctic",
+  "atlantic nearctic",
+  "atlantic palearctic",
+  "central palearctic",
+  "eastern palearctic",
+  "pacific palearctic"
+ ],
+ "SouthernRealms": [
+  "pacific neotropic",
+  "atlantic neotropic",
+  "atlantic afrotropic",
+  "eastern afrotropic",
+  "australasian",
+  "oceanic"
+ ],
+ "TreeBiomes": {
+  "araucariaheterophylla": [
+   "oceanic"
+  ],
+  "araucariaheterophyllalarge": [
+   "oceanic"
+  ],
+  "alsophilatricolor": [
+   "oceanic"
+  ],
+  "dacrydiumcupressinum": [
+   "oceanic"
+  ],
+  "dacrydiumcupressinummedium": [
+   "oceanic"
+  ],
+  "dacrydiumcupressinumsmall": [
+   "oceanic"
+  ],
+  "enteleaarborescens": [
+   "oceanic"
+  ],
+  "halocarpusbidwillii": [
+   "oceanic"
+  ],
+  "nothofagusmenziesii": [
+   "oceanic"
+  ],
+  "nothofagusmenziesiilarge": [
+   "oceanic"
+  ],
+  "podocarpusnivalis": [
+   "oceanic"
+  ],
+  "podocarpustotara": [
+   "oceanic"
+  ],
+  "podocarpustotaralarge": [
+   "oceanic"
+  ],
+  "psuedopanaxcrassifolius": [
+   "oceanic"
+  ],
+  "psuedopanaxcrassifoliusyoung": [
+   "oceanic"
+  ],
+  "rhopalostylissapida": [
+   "oceanic"
+  ]
+ },
+ "BlockPatchBiomes": {
+  "*-asteliagrandis-*": [
+   "oceanic"
+  ],
+  "*-asteliahastata-*": [
+   "oceanic"
+  ],
+  "*-cordylinepumilio-*": [
+   "oceanic"
+  ],
+  "*-aciphyllaaurea-*": [
+   "oceanic"
+  ],
+  "*-bulbinellarossii-*": [
+   "oceanic"
+  ],
+  "*-celmisiaangustifolia-*": [
+   "oceanic"
+  ],
+  "*-dietesrobinsoniana-*": [
+   "australasian"
+  ],
+  "*-droserabinata-*": [
+   "australasian",
+   "oceanic"
+  ],
+  "*-myosotidiumhortensia-*": [
+   "oceanic"
+  ],
+  "*-pleurophyllumcriniferum-*": [
+   "oceanic"
+  ],
+  "*-pleurophyllumspeciosum-*": [
+   "oceanic"
+  ],
+  "*-ranunculuslyallii-*": [
+   "oceanic"
+  ],
+  "*-sophoraprostrata-*": [
+   "oceanic"
+  ],
+  "*-veronicaepacridea-*": [
+   "oceanic"
+  ],
+  "*-cordylineindivisa": [
+   "oceanic"
+  ],
+  "*-elatostemarugosum": [
+   "oceanic"
+  ],
+  "*-lepidothamnuslaxifolius": [
+   "oceanic"
+  ],
+  "*-lomariadiscolor": [
+   "oceanic"
+  ],
+  "*-ptisanasalicina": [
+   "oceanic"
+  ],
+  "*-phormiumtenax-*": [
+   "oceanic"
+  ],
+  "*-sonchuskirkii-*": [
+   "oceanic"
+  ],
+  "*-urticaferox": [
+   "oceanic"
+  ]
+ }
+}

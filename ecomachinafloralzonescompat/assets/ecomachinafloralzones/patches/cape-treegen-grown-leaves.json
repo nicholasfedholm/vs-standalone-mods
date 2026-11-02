@@ -1,0 +1,114 @@
+[
+  {
+    "op": "replace",
+    "file": "game:worldgen/treegen/afrocarpusfalcatus.json",
+    "path": "/treeBlocks/leavesBlockCode",
+    "value": "floralzonescaperegion:leaves-grown-afrocarpusfalcatus",
+    "dependsOn": [
+      {
+        "modid": "floralzonescaperegion"
+      },
+      {
+        "modid": "vsecomachina"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "file": "game:worldgen/treegen/afrocarpusfalcatus.json",
+    "path": "/treeBlocks/leavesBranchyBlockCode",
+    "value": "floralzonescaperegion:leavesbranchy-grown-afrocarpusfalcatus",
+    "dependsOn": [
+      {
+        "modid": "floralzonescaperegion"
+      },
+      {
+        "modid": "vsecomachina"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "file": "game:worldgen/treegen/afrocarpusfalcatuslarge.json",
+    "path": "/treeBlocks/leavesBlockCode",
+    "value": "floralzonescaperegion:leaves-grown-afrocarpusfalcatus",
+    "dependsOn": [
+      {
+        "modid": "floralzonescaperegion"
+      },
+      {
+        "modid": "vsecomachina"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "file": "game:worldgen/treegen/afrocarpusfalcatuslarge.json",
+    "path": "/treeBlocks/leavesBranchyBlockCode",
+    "value": "floralzonescaperegion:leavesbranchy-grown-afrocarpusfalcatus",
+    "dependsOn": [
+      {
+        "modid": "floralzonescaperegion"
+      },
+      {
+        "modid": "vsecomachina"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "file": "game:worldgen/treegen/ocoteabullata.json",
+    "path": "/treeBlocks/leavesBlockCode",
+    "value": "floralzonescaperegion:leaves-grown-ocoteabullata",
+    "dependsOn": [
+      {
+        "modid": "floralzonescaperegion"
+      },
+      {
+        "modid": "vsecomachina"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "file": "game:worldgen/treegen/ocoteabullata.json",
+    "path": "/treeBlocks/leavesBranchyBlockCode",
+    "value": "floralzonescaperegion:leavesbranchy-grown-ocoteabullata",
+    "dependsOn": [
+      {
+        "modid": "floralzonescaperegion"
+      },
+      {
+        "modid": "vsecomachina"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "file": "game:worldgen/treegen/searsialancea.json",
+    "path": "/treeBlocks/leavesBlockCode",
+    "value": "floralzonescaperegion:leaves-grown-searsialancea",
+    "dependsOn": [
+      {
+        "modid": "floralzonescaperegion"
+      },
+      {
+        "modid": "vsecomachina"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "file": "game:worldgen/treegen/searsialancea.json",
+    "path": "/treeBlocks/leavesBranchyBlockCode",
+    "value": "floralzonescaperegion:leavesbranchy-grown-searsialancea",
+    "dependsOn": [
+      {
+        "modid": "floralzonescaperegion"
+      },
+      {
+        "modid": "vsecomachina"
+      }
+    ]
+  }
+]

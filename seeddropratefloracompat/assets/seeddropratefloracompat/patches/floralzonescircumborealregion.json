@@ -1,0 +1,80 @@
+[
+  {
+    "file": "floralzonescircumborealregion:blocktypes/plant/angelica",
+    "op": "replace",
+    "path": "/dropsByType/*-7/0/quantity/avg",
+    "value": 3.6
+  },
+  {
+    "file": "floralzonescircumborealregion:blocktypes/plant/angelica",
+    "op": "replace",
+    "path": "/dropsByType/*-6/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescircumborealregion:blocktypes/plant/angelica",
+    "op": "replace",
+    "path": "/dropsByType/*-5/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescircumborealregion:blocktypes/plant/angelica",
+    "op": "replace",
+    "path": "/dropsByType/*-4/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescircumborealregion:blocktypes/plant/angelica",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 2.1
+  },
+  {
+    "file": "floralzonescircumborealregion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/avg",
+    "value": 0.25
+  },
+  {
+    "file": "floralzonescircumborealregion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/var",
+    "value": 0
+  },
+  {
+    "file": "floralzonescircumborealregion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantityByType/*/avg",
+    "value": 0.25
+  },
+  {
+    "file": "floralzonescircumborealregion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantityByType/*/var",
+    "value": 0
+  },
+  {
+    "file": "floralzonescircumborealregion:blocktypes/plant/lettuce",
+    "op": "replace",
+    "path": "/dropsByType/*-7/0/quantity/avg",
+    "value": 3.6
+  },
+  {
+    "file": "floralzonescircumborealregion:blocktypes/plant/lettuce",
+    "op": "replace",
+    "path": "/dropsByType/*-6/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescircumborealregion:blocktypes/plant/lettuce",
+    "op": "replace",
+    "path": "/dropsByType/*-5/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonescircumborealregion:blocktypes/plant/lettuce",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 2.1
+  }
+]

@@ -1,0 +1,201 @@
+earth-realms\src\shared\FloraModel.cs(15,23): warning CS8618: Non-nullable field 'Domain' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\src\shared\RealmGeo.cs(98,20): warning CS8603: Possible null reference return. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\src\shared\FlagshipTable.cs(115,57): warning CS8601: Possible null reference assignment. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\src\shared\FloraModel.cs(75,65): warning CS8603: Possible null reference return. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\src\shared\FloraModel.cs(77,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\src\shared\FloraModel.cs(100,20): warning CS8603: Possible null reference return. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\src\shared\FloraModel.cs(140,44): warning CS8603: Possible null reference return. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\src\shared\FloraModel.cs(150,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\src\shared\FloraModel.cs(165,20): warning CS8603: Possible null reference return. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\tests\Program.cs(55,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\tests\Program.cs(56,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\tests\Program.cs(129,8): warning CS8604: Possible null reference argument for parameter 'actual' in 'void Eq(object actual, object expected, string label)'. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\tests\Program.cs(135,49): warning CS8604: Possible null reference argument for parameter 'variant' in 'bool FlagshipTable.TryGetHomes(string family, string variant, out string[] regions)'. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\tests\Program.cs(154,33): warning CS8619: Nullability of reference types in value of type 'List<string?>' doesn't match target type 'List<string>'. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\tests\Program.cs(167,79): warning CS8625: Cannot convert null literal to non-nullable reference type. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\tests\Program.cs(169,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\tests\Program.cs(177,24): warning CS8600: Converting null literal or possible null value to non-nullable type. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\tests\Program.cs(181,43): warning CS8604: Possible null reference argument for parameter 'realmHere' in 'bool FloraAssignments.PatchAllowed(IEnumerable<(string Domain, string Path)> blockCodes, string realmHere)'. [earth-realms\tests\EarthRealms.Tests.csproj]
+earth-realms\tests\Program.cs(204,31): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'item' of type 'List<string>' in 'void List<List<string>>.Add(List<string> item)' due to differences in the nullability of reference types. [earth-realms\tests\EarthRealms.Tests.csproj]
+== realm spot checks ==
+PASS  RealmAt(41.25, -95.93) (expected: atlantic nearctic, got: atlantic nearctic)
+PASS  RealmAt(51.5, -0.12) (expected: atlantic palearctic, got: atlantic palearctic)
+PASS  RealmAt(39.9, 116.4) (expected: eastern palearctic, got: eastern palearctic)
+PASS  RealmAt(35.7, 139.7) (expected: eastern palearctic, got: eastern palearctic)
+PASS  RealmAt(-33.9, 151.2) (expected: australasian, got: australasian)
+PASS  RealmAt(-36.8, 174.8) (expected: australasian, got: australasian)
+PASS  RealmAt(-3.1, -60) (expected: atlantic neotropic, got: atlantic neotropic)
+PASS  RealmAt(-33.4, -70.7) (expected: pacific neotropic, got: pacific neotropic)
+PASS  RealmAt(6.5, 3.4) (expected: atlantic afrotropic, got: atlantic afrotropic)
+PASS  RealmAt(-1.3, 36.8) (expected: eastern afrotropic, got: eastern afrotropic)
+PASS  RealmAt(-18.9, 47.5) (expected: eastern afrotropic, got: eastern afrotropic)
+PASS  RealmAt(21.3, -157.8) (expected: oceanic, got: oceanic)
+PASS  RealmAt(0, -150) (expected: oceanic, got: oceanic)
+PASS  RealmAt(23.1, -82.4) (expected: atlantic neotropic, got: atlantic neotropic)
+PASS  RealmAt(19.4, -99.1) (expected: atlantic neotropic, got: atlantic neotropic)
+INFO  RealmAt(64.9, 19.9) = atlantic palearctic (Norrland: box edge, documented)
+PASS  RealmAt(south pole) is null (expected: null, got: null)
+PASS  RealmAt(north pole) is null (expected: null, got: null)
+PASS  RealmAtBlock(Omaha blocks, Quarter) (expected: atlantic nearctic, got: atlantic nearctic)
+PASS  lon round trip
+PASS  lat round trip
+== flagship gate ==
+PASS  triceratops at Hell Creek allowed (expected: Allow, got: Allow)
+PASS  triceratops at Beijing blocked (expected: Block, got: Block)
+PASS  tarbosaurus in Mongolia allowed (expected: Allow, got: Allow)
+PASS  tarbosaurus in Montana blocked (expected: Block, got: Block)
+PASS  sinoceratops in Shandong allowed (expected: Allow, got: Allow)
+PASS  sinoceratops in Montana blocked (expected: Block, got: Block)
+PASS  protoceratops in the Gobi allowed (expected: Allow, got: Allow)
+PASS  ajkaceratops in Hungary allowed (expected: Allow, got: Allow)
+PASS  spinosaurus at Bahariya allowed (expected: Allow, got: Allow)
+PASS  spinosaurus in Brazil blocked (expected: Block, got: Block)
+PASS  oxalaia in NE Brazil allowed (expected: Allow, got: Allow)
+PASS  ichthyovenator in Laos allowed (expected: Allow, got: Allow)
+PASS  majungasaurus in Madagascar allowed (expected: Allow, got: Allow)
+PASS  majungasaurus in Argentina blocked (expected: Block, got: Block)
+PASS  rajasaurus in Gujarat allowed (expected: Allow, got: Allow)
+PASS  veterupristisaurus in Tanzania allowed (expected: Allow, got: Allow)
+PASS  herrerasaurus at Ischigualasto allowed (expected: Allow, got: Allow)
+PASS  herrerasaurus at Omaha blocked (expected: Block, got: Block)
+PASS  standard world: no-op (triceratops at Beijing allowed) (expected: Allow, got: Allow)
+PASS  master switch off: allowed (expected: Allow, got: Allow)
+PASS  family switch off: allowed (expected: Allow, got: Allow)
+PASS  unknown variant: fail open (expected: Allow, got: Allow)
+PASS  non-flagship family: allowed (expected: Allow, got: Allow)
+== flagship table vs installed packs ==
+PASS  pack present: lop-ceratops-1.2.1.zip
+PASS  ceratopsidae: exactly one main entity file (expected: 1, got: 1)
+PASS  ceratopsidae: entity code matches (expected: ceratopsidae, got: ceratopsidae)
+PASS  ceratopsidae:triceratops has a home region in the table
+PASS  ceratopsidae:pentaceratops has a home region in the table
+PASS  ceratopsidae:styracosaurus has a home region in the table
+PASS  ceratopsidae:centrosaurus has a home region in the table
+PASS  ceratopsidae:nasutoceratops has a home region in the table
+PASS  ceratopsidae:pachyrhinosaurus has a home region in the table
+PASS  ceratopsidae:torosaurus has a home region in the table
+PASS  ceratopsidae:xenoceratops has a home region in the table
+PASS  ceratopsidae:machairoceratops has a home region in the table
+PASS  ceratopsidae:nedoceratops has a home region in the table
+PASS  ceratopsidae:sinoceratops has a home region in the table
+PASS  ceratopsidae:regaliceratops has a home region in the table
+PASS  ceratopsidae:leptoceratops has a home region in the table
+PASS  ceratopsidae:protoceratops has a home region in the table
+PASS  ceratopsidae:ajkaceratops has a home region in the table
+PASS  pack present: LoP-Tyranno-1.4.2-batch0.zip
+PASS  tyrannosauridae: exactly one main entity file (expected: 1, got: 1)
+PASS  tyrannosauridae: entity code matches (expected: tyrannosauridae, got: tyrannosauridae)
+PASS  tyrannosauridae:tyrannosaurus has a home region in the table
+PASS  tyrannosauridae:tarbosaurus has a home region in the table
+PASS  tyrannosauridae:nanuqsaurus has a home region in the table
+PASS  tyrannosauridae:albertosaurus has a home region in the table
+PASS  tyrannosauridae:gorgosaurus has a home region in the table
+PASS  tyrannosauridae:alioramus has a home region in the table
+PASS  tyrannosauridae:qianzhousaurus has a home region in the table
+PASS  tyrannosauridae:zhuchengtyrannus has a home region in the table
+PASS  tyrannosauridae:bistahieversor has a home region in the table
+PASS  tyrannosauridae:thanatotheristes has a home region in the table
+PASS  tyrannosauridae:teratophoneus has a home region in the table
+PASS  tyrannosauridae:dynamoterror has a home region in the table
+PASS  pack present: LoP-Spino-1.1.0.zip
+PASS  spinosauridae: exactly one main entity file (expected: 1, got: 1)
+PASS  spinosauridae: entity code matches (expected: spinosauridae, got: spinosauridae)
+PASS  spinosauridae:spinosaurus has a home region in the table
+PASS  spinosauridae:oxalaia has a home region in the table
+PASS  spinosauridae:suchomimus has a home region in the table
+PASS  spinosauridae:baryonyx has a home region in the table
+PASS  spinosauridae:ichthyovenator has a home region in the table
+PASS  spinosauridae:irritator has a home region in the table
+PASS  pack present: LoP-Abeli-1.0.11.zip
+PASS  abelisauridae: exactly one main entity file (expected: 1, got: 1)
+PASS  abelisauridae: entity code matches (expected: abelisauridae, got: abelisauridae)
+PASS  abelisauridae:pycnonemosaurus has a home region in the table
+PASS  abelisauridae:ekrixinatosaurus has a home region in the table
+PASS  abelisauridae:carnotaurus has a home region in the table
+PASS  abelisauridae:chenanisaurus has a home region in the table
+PASS  abelisauridae:rajasaurus has a home region in the table
+PASS  abelisauridae:skorpiovenator has a home region in the table
+PASS  abelisauridae:majungasaurus has a home region in the table
+PASS  abelisauridae:abelisaurus has a home region in the table
+PASS  abelisauridae:xenotarsosaurus has a home region in the table
+PASS  abelisauridae:aucasaurus has a home region in the table
+PASS  abelisauridae:rahiolisaurus has a home region in the table
+PASS  abelisauridae:arcovenator has a home region in the table
+PASS  abelisauridae:rugops has a home region in the table
+PASS  abelisauridae:dahalokely has a home region in the table
+PASS  abelisauridae:ilokelesia has a home region in the table
+PASS  abelisauridae:viavenator has a home region in the table
+PASS  abelisauridae:tarascosaurus has a home region in the table
+PASS  abelisauridae:thanos has a home region in the table
+PASS  pack present: LoP-Carchar-1.0.7.zip
+PASS  carcharodontosauridae: exactly one main entity file (expected: 1, got: 1)
+PASS  carcharodontosauridae: entity code matches (expected: carcharodontosauridae, got: carcharodontosauridae)
+PASS  carcharodontosauridae:giganotosaurus has a home region in the table
+PASS  carcharodontosauridae:carcharodontosaurus has a home region in the table
+PASS  carcharodontosauridae:mapusaurus has a home region in the table
+PASS  carcharodontosauridae:tyrannotitan has a home region in the table
+PASS  carcharodontosauridae:tameryraptor has a home region in the table
+PASS  carcharodontosauridae:veterupristisaurus has a home region in the table
+PASS  carcharodontosauridae:ulughbegsaurus has a home region in the table
+PASS  carcharodontosauridae:siamraptor has a home region in the table
+PASS  carcharodontosauridae:shaochilong has a home region in the table
+PASS  carcharodontosauridae:concavenator has a home region in the table
+PASS  carcharodontosauridae:lusovenator has a home region in the table
+PASS  carcharodontosauridae:lajasvenator has a home region in the table
+PASS  pack present: LoP-Herrerasauridae-1.0.0-v1.zip
+PASS  herrerasauridae: exactly one main entity file (expected: 1, got: 1)
+PASS  herrerasauridae: entity code matches (expected: herrerasauridae, got: herrerasauridae)
+PASS  herrerasauridae:herrerasaurus has a home region in the table
+PASS  herrerasauridae:staurikosaurus has a home region in the table
+PASS  extracted variant total (expected: 65, got: 65)
+PASS  flagship table entry total (bijection with the packs) (expected: 65, got: 65)
+== flora tables ==
+PASS  eight Floral Zones fixture tables (expected: 8, got: 8)
+INFO  floralzonescaperegion: 10 tree, 24 patch species
+INFO  floralzonescaribbeanregion: 15 tree, 26 patch species
+INFO  floralzonescentralaustralianregion: 7 tree, 25 patch species
+INFO  floralzonescircumborealregion: 9 tree, 32 patch species
+INFO  floralzonescosmopolitanregion: 7 tree, 28 patch species
+INFO  floralzoneseastasiaticregion: 11 tree, 19 patch species
+INFO  floralzonesmediterraneanregion: 7 tree, 25 patch species
+INFO  floralzonesneozeylandicregion: 16 tree, 22 patch species
+PASS  assignments pack count (expected: 8, got: 8)
+PASS  tree species loaded (82)
+PASS  patch species loaded (201)
+PASS  cape afrocarpus allowed in atlantic afrotropic
+PASS  cape afrocarpus allowed in eastern afrotropic
+PASS  cape afrocarpus blocked in atlantic nearctic
+PASS  cape afrocarpus blocked where no realm (ocean)
+PASS  vanilla oak is ungated
+PASS  vanilla oak allowed even with no realm
+PASS  cape patch 'strelitziaalba' allowed in atlantic afrotropic
+PASS  cape patch 'strelitziaalba' blocked in pacific nearctic
+PASS  a code no table names (vanilla daisy) stays ungated
+INFO  cape patch sample: token=strelitziaalba, home=atlantic afrotropic, away=pacific nearctic
+== cross-check: where can each pack's species appear? ==
+INFO  floralzonescaperegion at Cape Town (atlantic afrotropic): 34/34 species allowed
+INFO  floralzonescaperegion at Alice Springs (australasian): 0/34 species allowed
+INFO  floralzonescaperegion at Rome (atlantic palearctic): 0/34 species allowed
+INFO  floralzonescaperegion at Omaha (atlantic nearctic): 0/34 species allowed
+INFO  floralzonescaperegion at Beijing (eastern palearctic): 0/34 species allowed
+INFO  floralzonescaperegion at Manaus (atlantic neotropic): 0/34 species allowed
+INFO  floralzonescaperegion at Auckland (australasian): 0/34 species allowed
+PASS  cape pack: no species lists Omaha's realm
+PASS  cape pack: at least one species allowed at Cape Town
+INFO  floralzonescentralaustralianregion at Cape Town (atlantic afrotropic): 0/32 species allowed
+INFO  floralzonescentralaustralianregion at Alice Springs (australasian): 32/32 species allowed
+INFO  floralzonescentralaustralianregion at Rome (atlantic palearctic): 0/32 species allowed
+INFO  floralzonescentralaustralianregion at Omaha (atlantic nearctic): 0/32 species allowed
+INFO  floralzonescentralaustralianregion at Beijing (eastern palearctic): 0/32 species allowed
+INFO  floralzonescentralaustralianregion at Manaus (atlantic neotropic): 0/32 species allowed
+INFO  floralzonescentralaustralianregion at Auckland (australasian): 32/32 species allowed
+PASS  central australian pack: species allowed at Alice Springs
+INFO  floralzonesmediterraneanregion at Cape Town (atlantic afrotropic): 0/32 species allowed
+INFO  floralzonesmediterraneanregion at Alice Springs (australasian): 0/32 species allowed
+INFO  floralzonesmediterraneanregion at Rome (atlantic palearctic): 32/32 species allowed
+INFO  floralzonesmediterraneanregion at Omaha (atlantic nearctic): 0/32 species allowed
+INFO  floralzonesmediterraneanregion at Beijing (eastern palearctic): 0/32 species allowed
+INFO  floralzonesmediterraneanregion at Manaus (atlantic neotropic): 0/32 species allowed
+INFO  floralzonesmediterraneanregion at Auckland (australasian): 0/32 species allowed
+
+==== 144 passed, 0 failed ====

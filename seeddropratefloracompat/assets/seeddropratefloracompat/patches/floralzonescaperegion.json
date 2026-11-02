@@ -1,0 +1,26 @@
+[
+  {
+    "file": "floralzonescaperegion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/avg",
+    "value": 0.25
+  },
+  {
+    "file": "floralzonescaperegion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/var",
+    "value": 0
+  },
+  {
+    "file": "floralzonescaperegion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/avg",
+    "value": 0.25
+  },
+  {
+    "file": "floralzonescaperegion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/var",
+    "value": 0
+  }
+]

@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>bin\$(Configuration)\Mods</OutputPath>
+    <Nullable>enable</Nullable>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <NetRuntimeDir>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.14</NetRuntimeDir>
+    <AssemblyName>EarthTpBridge</AssemblyName>
+    <VINTAGE_STORY Condition="'$(VINTAGE_STORY)' == ''">%APPDATA%\Vintagestory</VINTAGE_STORY>
+    <EARTH_DIR>..\..\work\extract\earth-1.0.1</EARTH_DIR>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="VintagestoryAPI">
+      <HintPath>$(VINTAGE_STORY)\VintagestoryAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(VINTAGE_STORY)\Lib\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VSEssentials">
+      <HintPath>$(VINTAGE_STORY)\Mods\VSEssentials.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(VINTAGE_STORY)\Lib\Newtonsoft.Json.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- EarthMap.dll references System.Private.CoreLib directly; compile-only, never shipped. -->
+    <Reference Include="$(NetRuntimeDir)\System.*.dll;$(NetRuntimeDir)\netstandard.dll;$(NetRuntimeDir)\mscorlib.dll" Exclude="$(NetRuntimeDir)\System.IO.Compression.Native.dll" Private="false" />
+    <!-- Compile-time reference only; Earth's binary is never shipped. -->
+    <Reference Include="EarthMap">
+      <HintPath>$(EARTH_DIR)\EarthMap.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\modinfo.json" CopyToOutputDirectory="PreserveNewest" Link="modinfo.json" />
+    <None Include="..\LICENSE" CopyToOutputDirectory="PreserveNewest" Link="LICENSE" />
+  </ItemGroup>
+
+</Project>

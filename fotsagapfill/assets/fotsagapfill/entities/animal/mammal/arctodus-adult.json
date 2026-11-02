@@ -1,0 +1,778 @@
+{
+ "code": "arctodus",
+ "class": "EntityAgent",
+ "tags": [
+  "animal",
+  "huntable",
+  "adult",
+  "predator",
+  "ferocious",
+  "habitat-land"
+ ],
+ "weightByType": {
+  "*-female": 600,
+  "*-male": 800
+ },
+ "variantgroups": [
+  {
+   "code": "type",
+   "states": [
+    "simus"
+   ]
+  },
+  {
+   "code": "age",
+   "states": [
+    "adult"
+   ]
+  },
+  {
+   "code": "gender",
+   "states": [
+    "male",
+    "female"
+   ]
+  }
+ ],
+ "canClimbByType": {
+  "*": true
+ },
+ "collisionBoxSizeByType": {
+  "*-female": {
+   "x": 1.5,
+   "y": 1.11
+  },
+  "*-male": {
+   "x": 1.65,
+   "y": 1.23
+  }
+ },
+ "deadCollisionBoxSizeByType": {
+  "*-female": {
+   "x": 1.4,
+   "y": 0.75
+  },
+  "*-male": {
+   "x": 1.55,
+   "y": 0.8
+  }
+ },
+ "selectionBoxSizeByType": {
+  "*": {
+   "x": 2.0,
+   "y": 2.56
+  }
+ },
+ "deadSelectionBoxSizeByType": {
+  "*": {
+   "x": 1.8,
+   "y": 1.2
+  }
+ },
+ "knockbackResistanceByType": {
+  "*": 0.9
+ },
+ "eyeHeightByType": {
+  "*-female": 1.31,
+  "*-male": 1.45
+ },
+ "swimmingEyeHeight": 1.1,
+ "drops": [],
+ "attributes": {
+  "newWorldSpawnDelayHours": 24,
+  "killedByInfoText": "deadcreature-eaten-large",
+  "handbook": {
+   "groupcode": "creaturegroup-arctodus",
+   "trappableGroupCode": "creaturegroup-arctodus-{age}"
+  },
+  "creatureDietByType": {
+   "*": {
+    "weightedFoodTags": [
+     {
+      "weight": 1,
+      "code": "meat"
+     }
+    ]
+   }
+  },
+  "trappable": {
+   "small": {
+    "trapChance": 0,
+    "trapDestroyChance": 0.95
+   },
+   "large": {
+    "trapChance": 0,
+    "trapDestroyChance": 0.5
+   }
+  },
+  "biorealm": [
+   "pacific nearctic",
+   "atlantic nearctic"
+  ]
+ },
+ "client": {
+  "renderer": "Shape",
+  "shape": {
+   "base": "fotsagapfill:entity/animal/mammal/arctodus/simus-adult"
+  },
+  "texture": {
+   "base": "fotsagapfill:entity/animal/mammal/arctodus/simus-adult*"
+  },
+  "sizeByType": {
+   "*-female": 0.772,
+   "*-male": 0.853
+  },
+  "behaviors": [
+   {
+    "code": "repulseagents"
+   },
+   {
+    "code": "controlledphysics",
+    "stepHeightByType": {
+     "*": 3.1251
+    }
+   },
+   {
+    "code": "floatupwhenstuck",
+    "onlyWhenDead": true
+   },
+   {
+    "code": "interpolateposition"
+   },
+   {
+    "code": "harvestable"
+   },
+   {
+    "code": "despawn",
+    "minPlayerDistance": 16,
+    "belowLightLevel": 8,
+    "minSeconds": 300,
+    "afterDays": 14
+   },
+   {
+    "code": "health",
+    "maxhealthByType": {
+     "*": 64
+    }
+   }
+  ],
+  "animations": [
+   {
+    "code": "hurt",
+    "animation": "hurt",
+    "animationSpeed": 2.2,
+    "weight": 10,
+    "blendMode": "AddAverage"
+   },
+   {
+    "code": "die",
+    "animation": "die",
+    "animationSpeed": 1.25,
+    "weight": 10,
+    "blendMode": "Average",
+    "triggeredBy": {
+     "onControls": [
+      "dead"
+     ]
+    }
+   },
+   {
+    "code": "idle",
+    "animation": "idle",
+    "blendMode": "AddAverage",
+    "easeOutSpeed": 4,
+    "animationSpeedByType": {
+     "*": 0.6
+    },
+    "triggeredBy": {
+     "defaultAnim": true
+    }
+   },
+   {
+    "code": "sleep",
+    "animation": "sleep",
+    "easeInSpeed": 4,
+    "easeOutSpeed": 4,
+    "weight": 1.25,
+    "blendMode": "Average"
+   },
+   {
+    "code": "sit",
+    "animation": "sit",
+    "easeInSpeed": 4,
+    "easeOutSpeed": 3,
+    "animationSpeedByType": {
+     "*": 0.6
+    },
+    "supressDefaultAnimation": true,
+    "blendMode": "Average"
+   },
+   {
+    "code": "stand",
+    "animation": "stand",
+    "easeOutSpeed": 2,
+    "weight": 1,
+    "blendMode": "Average"
+   },
+   {
+    "code": "lie",
+    "animation": "lie",
+    "animationSpeedByType": {
+     "*": 0.3
+    },
+    "blendMode": "Average"
+   },
+   {
+    "code": "walk",
+    "animation": "walk",
+    "supressDefaultAnimation": true,
+    "blendMode": "AddAverage",
+    "animationSounds": [
+     {
+      "frame": 4,
+      "range": 15,
+      "location": "game:creature/bear/footsteps/dirt/bear-footstep-dirt*",
+      "pitch": {
+       "avg": 1.0,
+       "var": 0.15
+      }
+     },
+     {
+      "frame": 16,
+      "range": 15,
+      "location": "game:creature/bear/footsteps/dirt/bear-footstep-dirt*",
+      "pitch": {
+       "avg": 1.0,
+       "var": 0.15
+      }
+     },
+     {
+      "frame": 19,
+      "range": 15,
+      "location": "game:creature/bear/footsteps/dirt/bear-footstep-dirt*",
+      "pitch": {
+       "avg": 1.0,
+       "var": 0.15
+      }
+     },
+     {
+      "frame": 30,
+      "range": 15,
+      "location": "game:creature/bear/footsteps/dirt/bear-footstep-dirt*",
+      "pitch": {
+       "avg": 1.0,
+       "var": 0.15
+      }
+     }
+    ]
+   },
+   {
+    "code": "run",
+    "animation": "run",
+    "animationSounds": [
+     {
+      "frame": 14,
+      "range": 25,
+      "location": "game:creature/bear/footsteps/dirt/bear-footstep-dirt*",
+      "pitch": {
+       "avg": 1.0,
+       "var": 0.15
+      }
+     },
+     {
+      "frame": 15,
+      "range": 25,
+      "location": "game:creature/bear/footsteps/dirt/bear-footstep-dirt*",
+      "pitch": {
+       "avg": 1.0,
+       "var": 0.15
+      }
+     },
+     {
+      "frame": 22,
+      "range": 25,
+      "location": "game:creature/bear/footsteps/dirt/bear-footstep-dirt*",
+      "pitch": {
+       "avg": 1.0,
+       "var": 0.15
+      }
+     },
+     {
+      "frame": 26,
+      "range": 25,
+      "location": "game:creature/bear/footsteps/dirt/bear-footstep-dirt*",
+      "pitch": {
+       "avg": 1.0,
+       "var": 0.15
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "server": {
+  "attributes": {
+   "pathfinder": {
+    "minTurnAnglePerSec": 350,
+    "maxTurnAnglePerSec": 650
+   }
+  },
+  "behaviors": [
+   {
+    "code": "repulseagents"
+   },
+   {
+    "code": "controlledphysics",
+    "stepHeightByType": {
+     "*": 3.1251
+    }
+   },
+   {
+    "code": "despawn",
+    "minPlayerDistance": 16,
+    "belowLightLevel": 8,
+    "minSeconds": 300,
+    "afterDays": 21
+   },
+   {
+    "code": "health",
+    "maxhealthByType": {
+     "*": 64
+    }
+   },
+   {
+    "code": "deaddecay",
+    "hoursToDecay": 96,
+    "decayedBlock": "carcass-large"
+   },
+   {
+    "code": "floatupwhenstuck",
+    "onlyWhenDead": true
+   },
+   {
+    "code": "harvestable",
+    "drops": [
+     {
+      "type": "item",
+      "code": "game:bushmeat-raw",
+      "quantityByType": {
+       "*": {
+        "avg": 16,
+        "var": 2
+       }
+      }
+     },
+     {
+      "type": "item",
+      "code": "game:hide-raw-huge",
+      "quantity": {
+       "avg": 1,
+       "var": 0
+      }
+     },
+     {
+      "type": "item",
+      "code": "game:fat",
+      "quantityByType": {
+       "*": {
+        "avg": 3,
+        "var": 1
+       }
+      }
+     }
+    ]
+   },
+   {
+    "code": "breathe"
+   },
+   {
+    "code": "emotionstates",
+    "states": [
+     {
+      "code": "fleeondamage",
+      "duration": 30,
+      "chanceByType": {
+       "*": 0.05
+      },
+      "slot": 2,
+      "priority": 5,
+      "accumType": "max",
+      "whenHealthRelBelow": 0.3
+     },
+     {
+      "code": "saturated",
+      "duration": 1200,
+      "chance": 1,
+      "slot": 0,
+      "priority": 1,
+      "accumType": "sum",
+      "belowTempDuration": 600,
+      "belowTempThreshold": -5
+     },
+     {
+      "code": "aggressiveondamage",
+      "duration": 30,
+      "chance": 1,
+      "slot": 2,
+      "priority": 2,
+      "accumType": "noaccum"
+     },
+     {
+      "code": "alarmherdondamage",
+      "chance": 1,
+      "slot": 1,
+      "priority": 1,
+      "accumType": "max"
+     }
+    ]
+   },
+   {
+    "code": "taskai",
+    "aiCreatureType": "LandCreature",
+    "aitasks": [
+     {
+      "code": "meleeattack",
+      "priority": 2,
+      "entityCodes": [
+       "player"
+      ],
+      "damageTier": 2,
+      "damageByType": {
+       "*": 12
+      },
+      "damageType": "SlashingAttack",
+      "minDistByType": {
+       "*": 2
+      },
+      "minVerDist": 1.5,
+      "slot": 1,
+      "mincooldown": 1500,
+      "maxcooldown": 1500,
+      "attackDurationMs": 800,
+      "damagePlayerAtMs": 500,
+      "animation": "Attack",
+      "animationSpeed": 1,
+      "sound": "game:creature/bear/attack",
+      "whenInEmotionState": "aggressiveondamage"
+     },
+     {
+      "code": "fleeentity",
+      "priority": 1.7,
+      "entityCodes": [
+       "player"
+      ],
+      "seekingRange": 20,
+      "animation": "Run",
+      "sound": "game:creature/bear/flee",
+      "whenInEmotionState": "fleeondamage",
+      "animationSpeedByType": {
+       "*": 2
+      },
+      "movespeedByType": {
+       "*": 0.055
+      }
+     },
+     {
+      "code": "meleeattack",
+      "priority": 1.65,
+      "entityCodes": [
+       "player",
+       "chicken-*",
+       "hare-*",
+       "fox-*",
+       "raccoon-*",
+       "pig-*",
+       "sheep-*",
+       "deer-*",
+       "goat-*"
+      ],
+      "damageByType": {
+       "*": 12
+      },
+      "damageTier": 2,
+      "damageType": "SlashingAttack",
+      "minDistByType": {
+       "*": 2
+      },
+      "minVerDist": 1.5,
+      "slot": 1,
+      "mincooldown": 1500,
+      "maxcooldown": 1500,
+      "attackDurationMs": 800,
+      "damagePlayerAtMs": 500,
+      "animation": "Attack",
+      "animationSpeed": 1,
+      "sound": "game:creature/bear/attack"
+     },
+     {
+      "code": "seekentity",
+      "priority": 1.6,
+      "entityCodesByType": {
+       "*": [
+        "player",
+        "chicken-*",
+        "hare-*",
+        "fox-*",
+        "raccoon-*",
+        "pig-*",
+        "sheep-*",
+        "deer-*",
+        "goat-*"
+       ]
+      },
+      "skipEntityCodesByType": {
+       "*": [
+        "chicken-baby",
+        "hare-*-baby-*"
+       ]
+      },
+      "extraTargetDistance": 0.5,
+      "seekingRange": 16,
+      "belowTempSeekingRange": 20,
+      "belowTempThreshold": -10,
+      "animation": "Run",
+      "sound": "game:creature/bear/aggro",
+      "whenNotInEmotionState": "saturated",
+      "animationSpeedByType": {
+       "*": 2
+      },
+      "movespeedByType": {
+       "*": 0.055
+      }
+     },
+     {
+      "code": "fleeentity",
+      "priority": 1.5,
+      "entityCodes": [
+       "player"
+      ],
+      "enabledByType": {
+       "*": false
+      },
+      "seekingRange": 5,
+      "animation": "Run"
+     },
+     {
+      "code": "seekentity",
+      "entityCodes": [
+       "player"
+      ],
+      "priority": 1.45,
+      "seekingRange": 30,
+      "animation": "Run",
+      "leapAtTarget": true,
+      "leapAnimation": null,
+      "leapChance": 0.01,
+      "sound": "game:creature/bear/aggro",
+      "whenInEmotionState": "aggressiveondamage",
+      "animationSpeedByType": {
+       "*": 2
+      },
+      "movespeedByType": {
+       "*": 0.055
+      }
+     },
+     {
+      "code": "seekfoodandeat",
+      "movespeedByType": {
+       "*": 0.015
+      },
+      "priority": 1.3,
+      "eatSound": "game:creature/animal-eat1",
+      "eatTime": 1.5,
+      "minduration": 4000,
+      "maxduration": 4000,
+      "animation": "Walk",
+      "eatAnimation": "Eat",
+      "eatAnimationLooseItems": "Eat",
+      "animationSpeedByType": {
+       "*": 1.15
+      },
+      "mincooldownHours": 1,
+      "maxcooldownHours": 4
+     },
+     {
+      "code": "getoutofwater",
+      "priority": 1.4,
+      "movespeedByType": {
+       "*": 0.015
+      },
+      "animation": "Swim",
+      "animationSpeedByType": {
+       "*": 1
+      }
+     },
+     {
+      "code": "idle",
+      "priority": 1.3,
+      "priorityForCancel": 1.35,
+      "minduration": 200000,
+      "maxduration": 800000,
+      "mincooldown": 10000,
+      "maxcooldown": 30000,
+      "animation": "Sleep",
+      "animationSpeed": 0.3,
+      "whenNotInEmotionState": "aggressiveondamage",
+      "duringDayTimeFrames": [
+       {
+        "fromHour": 10,
+        "toHour": 18
+       },
+       {
+        "fromHour": 1,
+        "toHour": 3
+       }
+      ],
+      "stopOnNearbyEntityCodes": [
+       "player"
+      ],
+      "stopRange": 10,
+      "stopOnHurt": true
+     },
+     {
+      "code": "idle",
+      "priority": 1.2,
+      "priorityForCancel": 1.35,
+      "minduration": 4667,
+      "maxduration": 4667,
+      "mincooldown": 80000,
+      "maxcooldown": 500000,
+      "animation": "Stand",
+      "whenNotInEmotionState": "aggressiveondamage",
+      "animationSpeed": 0.5
+     },
+     {
+      "code": "idle",
+      "priority": 1.1,
+      "priorityForCancel": 1.35,
+      "minduration": 2500,
+      "maxduration": 2500,
+      "mincooldown": 6000,
+      "maxcooldown": 20000,
+      "animation": "Stand",
+      "whenNotInEmotionState": "aggressiveondamage",
+      "animationSpeed": 1.25
+     },
+     {
+      "code": "wander",
+      "priority": 1.0,
+      "priorityForCancel": 1.35,
+      "animation": "Walk",
+      "preferredLightLevel": 20,
+      "animationSpeedByType": {
+       "*": 1.15
+      },
+      "movespeedByType": {
+       "*": 0.015
+      }
+     },
+     {
+      "code": "idle",
+      "priority": 0.9,
+      "priorityForCancel": 1.35,
+      "minduration": 5000,
+      "maxduration": 30000,
+      "mincooldown": 2000,
+      "maxcooldown": 120000,
+      "animation": "Sit",
+      "supressDefaultAnimation": true,
+      "whenNotInEmotionState": "aggressiveondamage",
+      "stopOnNearbyEntityCodes": [
+       "player"
+      ],
+      "stopRange": 5
+     },
+     {
+      "code": "idle",
+      "priority": 0.6,
+      "priorityForCancel": 1.35,
+      "minduration": 5000,
+      "maxduration": 30000,
+      "mincooldown": 2000,
+      "maxcooldown": 120000,
+      "animation": "Lie",
+      "whenNotInEmotionState": "aggressiveondamage",
+      "stopOnNearbyEntityCodes": [
+       "player"
+      ],
+      "stopRange": 5
+     },
+     {
+      "code": "lookaround",
+      "turnSpeedMul": 0.2,
+      "priority": 0.5
+     }
+    ]
+   },
+   {
+    "code": "entitystatetags"
+   }
+  ],
+  "spawnconditions": {
+   "worldgen": {
+    "TriesPerChunk": {
+     "avg": 0.007,
+     "var": 0
+    },
+    "tryOnlySurface": true,
+    "groupSize": {
+     "dist": "verynarrowgaussian",
+     "avg": 1,
+     "var": 1
+    },
+    "insideBlockCodes": [
+     "air",
+     "tallgrass-*",
+     "snowlayer-*",
+     "flower-*"
+    ]
+   },
+   "runtime": {
+    "group": "hostile",
+    "MinDistanceToPlayer": 30,
+    "tryOnlySurface": true,
+    "chance": 1.5e-05,
+    "maxQuantity": 1,
+    "maxQuantityByGroup": {
+     "code": "arctodus-*",
+     "maxQuantity": 2
+    },
+    "groupSize": {
+     "dist": "verynarrowgaussian",
+     "avg": 1,
+     "var": 1
+    },
+    "maxLightLevel": 7,
+    "lightLevelType": "onlyBlockLight",
+    "insideBlockCodes": [
+     "air",
+     "tallgrass-*",
+     "snowlayer-*",
+     "flower-*"
+    ]
+   },
+   "climate": {
+    "maxY": 1.6,
+    "minTemp": -8,
+    "maxTemp": 20,
+    "minRain": 0.2,
+    "maxRain": 0.7,
+    "minForest": 0.0,
+    "maxForest": 0.8,
+    "maxShrubs": 1.0
+   }
+  }
+ },
+ "sounds": {
+  "hurt": "game:creature/bear/hurt",
+  "death": "game:creature/bear/flee",
+  "idle": {
+   "path": "game:creature/bear/growl*",
+   "pitch": {
+    "avg": 1,
+    "var": 0.25
+   }
+  }
+ },
+ "idleSoundChance": 0.1
+}

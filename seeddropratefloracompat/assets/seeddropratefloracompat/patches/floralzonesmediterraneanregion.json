@@ -1,0 +1,116 @@
+[
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/artichoke",
+    "op": "replace",
+    "path": "/dropsByType/*-8/0/quantity/avg",
+    "value": 6.3
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/artichoke",
+    "op": "replace",
+    "path": "/dropsByType/*-7/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/artichoke",
+    "op": "replace",
+    "path": "/dropsByType/*-6/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/artichoke",
+    "op": "replace",
+    "path": "/dropsByType/*-5/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/artichoke",
+    "op": "replace",
+    "path": "/dropsByType/*-4/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/artichoke",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 2.1
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/horseradish",
+    "op": "replace",
+    "path": "/dropsByType/*-7/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/horseradish",
+    "op": "replace",
+    "path": "/dropsByType/*-6/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/horseradish",
+    "op": "replace",
+    "path": "/dropsByType/*-5/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/horseradish",
+    "op": "replace",
+    "path": "/dropsByType/*-4/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/horseradish",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 2.1
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/dropsByType/*-laurusnobilis/0/quantityByType/*/avg",
+    "value": 0.25
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/dropsByType/*-laurusnobilis/0/quantityByType/*/var",
+    "value": 0
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantityByType/*/avg",
+    "value": 0.25
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantityByType/*/var",
+    "value": 0
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/dropsByType/*-laurusnobilis/0/quantityByType/*/avg",
+    "value": 0.25
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/dropsByType/*-laurusnobilis/0/quantityByType/*/var",
+    "value": 0
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantityByType/*/avg",
+    "value": 0.25
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantityByType/*/var",
+    "value": 0
+  }
+]

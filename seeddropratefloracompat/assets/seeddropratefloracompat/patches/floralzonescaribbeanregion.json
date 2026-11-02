@@ -1,0 +1,56 @@
+[
+  {
+    "file": "floralzonescaribbeanregion:blocktypes/plant/blueagave",
+    "op": "replace",
+    "path": "/dropsByType/*-8/0/quantity/avg",
+    "value": 3.6
+  },
+  {
+    "file": "floralzonescaribbeanregion:blocktypes/plant/blueagave",
+    "op": "replace",
+    "path": "/dropsByType/*-9/0/quantity/avg",
+    "value": 12.3
+  },
+  {
+    "file": "floralzonescaribbeanregion:blocktypes/plant/blueagave",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 2.1
+  },
+  {
+    "file": "floralzonescaribbeanregion:blocktypes/plant/cotton",
+    "op": "replace",
+    "path": "/dropsByType/*-5/0/quantity/avg",
+    "value": 0.3
+  },
+  {
+    "file": "floralzonescaribbeanregion:blocktypes/plant/cotton",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 0.3
+  },
+  {
+    "file": "floralzonescaribbeanregion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/avg",
+    "value": 0.25
+  },
+  {
+    "file": "floralzonescaribbeanregion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/var",
+    "value": 0
+  },
+  {
+    "file": "floralzonescaribbeanregion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/avg",
+    "value": 0.25
+  },
+  {
+    "file": "floralzonescaribbeanregion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/var",
+    "value": 0
+  }
+]

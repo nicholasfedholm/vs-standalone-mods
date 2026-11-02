@@ -1,0 +1,74 @@
+[
+  {
+    "file": "floralzoneseastasiaticregion:blocktypes/plant/fuki",
+    "op": "replace",
+    "path": "/dropsByType/*-5/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzoneseastasiaticregion:blocktypes/plant/fuki",
+    "op": "replace",
+    "path": "/dropsByType/*-4/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzoneseastasiaticregion:blocktypes/plant/fuki",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 2.1
+  },
+  {
+    "file": "floralzoneseastasiaticregion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/avg",
+    "value": 0.25
+  },
+  {
+    "file": "floralzoneseastasiaticregion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/drops/0/quantityByType/*/var",
+    "value": 0
+  },
+  {
+    "file": "floralzoneseastasiaticregion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantityByType/*/avg",
+    "value": 0.25
+  },
+  {
+    "file": "floralzoneseastasiaticregion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantityByType/*/var",
+    "value": 0
+  },
+  {
+    "file": "floralzoneseastasiaticregion:blocktypes/plant/spongegourd",
+    "op": "replace",
+    "path": "/dropsByType/*-7/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzoneseastasiaticregion:blocktypes/plant/spongegourd",
+    "op": "replace",
+    "path": "/dropsByType/*-6/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzoneseastasiaticregion:blocktypes/plant/spongegourd",
+    "op": "replace",
+    "path": "/dropsByType/*-5/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzoneseastasiaticregion:blocktypes/plant/spongegourd",
+    "op": "replace",
+    "path": "/dropsByType/*-4/0/quantity/avg",
+    "value": 3.3
+  },
+  {
+    "file": "floralzoneseastasiaticregion:blocktypes/plant/spongegourd",
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 2.1
+  }
+]

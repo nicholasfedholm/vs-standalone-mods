@@ -1,0 +1,179 @@
+{
+ "NorthernRealms": [
+  "pacific nearctic",
+  "atlantic nearctic",
+  "atlantic palearctic",
+  "central palearctic",
+  "eastern palearctic",
+  "pacific palearctic"
+ ],
+ "SouthernRealms": [
+  "pacific neotropic",
+  "atlantic neotropic",
+  "atlantic afrotropic",
+  "eastern afrotropic",
+  "australasian",
+  "oceanic"
+ ],
+ "TreeBiomes": {
+  "cecropiaobtusifolia": [
+   "pacific nearctic",
+   "pacific neotropic"
+  ],
+  "ceibapentandra": [
+   "atlantic nearctic",
+   "atlantic neotropic",
+   "pacific nearctic",
+   "pacific neotropic"
+  ],
+  "ceibapentandralarge": [
+   "atlantic nearctic",
+   "atlantic neotropic",
+   "pacific nearctic",
+   "pacific neotropic"
+  ],
+  "comarostaphylisarbutoides": [
+   "pacific nearctic"
+  ],
+  "lysilomalatisiliquum": [
+   "atlantic nearctic",
+   "pacific nearctic"
+  ],
+  "narrowpinuscaribaea": [
+   "atlantic nearctic",
+   "pacific nearctic"
+  ],
+  "peltogynepurpurea": [
+   "atlantic neotropic",
+   "pacific nearctic"
+  ],
+  "pinuscaribaea": [
+   "atlantic nearctic",
+   "pacific nearctic"
+  ],
+  "pinustecunumanii": [
+   "pacific nearctic"
+  ],
+  "quercuscostaricensis": [
+   "pacific nearctic"
+  ],
+  "quercuscostaricensistall": [
+   "pacific nearctic"
+  ],
+  "roystonearegia": [
+   "atlantic nearctic",
+   "pacific nearctic"
+  ],
+  "sabalpalmetto": [
+   "atlantic nearctic",
+   "pacific nearctic"
+  ],
+  "scalesiapedunculata": [
+   "pacific neotropic"
+  ],
+  "shrubcomarostaphylisarbutoides": [
+   "pacific nearctic"
+  ]
+ },
+ "BlockPatchBiomes": {
+  "*-acoelorrhaphewrightii-*": [
+   "atlantic nearctic",
+   "atlantic neotropic",
+   "pacific nearctic"
+  ],
+  "*-harrisiaportoricensis-*": [
+   "atlantic nearctic"
+  ],
+  "*-monsteradeliciosa-*": [
+   "pacific nearctic"
+  ],
+  "*-selenicereuscostaricensis-*": [
+   "pacific nearctic",
+   "pacific neotropic"
+  ],
+  "*-sabaletonia-*": [
+   "atlantic nearctic"
+  ],
+  "*-sabalmiamiensis-*": [
+   "atlantic nearctic"
+  ],
+  "*-sabalminor-*": [
+   "atlantic nearctic",
+   "pacific nearctic"
+  ],
+  "*-agavetequilana-*": [
+   "pacific nearctic"
+  ],
+  "*-gossypiumhirsutum-*": [
+   "atlantic nearctic",
+   "atlantic neotropic",
+   "pacific nearctic",
+   "pacific neotropic"
+  ],
+  "*-beaucarnearecurvata": [
+   "pacific nearctic"
+  ],
+  "*-carludovicapalmata": [
+   "atlantic neotropic",
+   "pacific nearctic",
+   "pacific neotropic"
+  ],
+  "*-zamiafurfuracea": [
+   "pacific nearctic"
+  ],
+  "*-agavechiapensis-*": [
+   "pacific nearctic"
+  ],
+  "*-agavekaratto-*": [
+   "atlantic nearctic"
+  ],
+  "*-heliconiacaribaea-*": [
+   "atlantic nearctic",
+   "atlantic neotropic",
+   "pacific nearctic"
+  ],
+  "*-heliconiarostrata-*": [
+   "atlantic neotropic",
+   "pacific nearctic",
+   "pacific neotropic"
+  ],
+  "*-jasminocereusthouarsii-*": [
+   "pacific neotropic"
+  ],
+  "*-justiciaspicigera-*": [
+   "pacific nearctic"
+  ],
+  "*-pinguiculagigantea-*": [
+   "pacific nearctic"
+  ],
+  "*-salvialeucantha-*": [
+   "pacific nearctic"
+  ],
+  "*-tradescantiazebrina-*": [
+   "atlantic nearctic",
+   "atlantic neotropic",
+   "pacific nearctic"
+  ],
+  "*-turneraulmifolia-*": [
+   "atlantic nearctic",
+   "pacific nearctic"
+  ],
+  "*-brachycereusnesioticus": [
+   "pacific neotropic"
+  ],
+  "*-equisetummyriochaetum-*": [
+   "atlantic nearctic",
+   "atlantic neotropic",
+   "pacific nearctic"
+  ],
+  "*-opuntiatriacantha": [
+   "atlantic nearctic"
+  ],
+  "*-xanthosomasagittifolium-*": [
+   "atlantic nearctic",
+   "atlantic neotropic",
+   "pacific nearctic",
+   "pacific neotropic"
+  ]
+ }
+}

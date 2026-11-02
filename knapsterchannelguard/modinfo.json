@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "knapsterchannelguard",
+  "name": "Knapster Channel Guard",
+  "description": "Keeps Knapster's network message ids in sync when its admin menu fails to start on the server.",
+  "authors": ["Nick"],
+  "version": "1.0.0",
+  "side": "Server",
+  "requiredOnClient": false,
+  "requiredOnServer": false,
+  "dependencies": { "game": "1.22.0" }
+}

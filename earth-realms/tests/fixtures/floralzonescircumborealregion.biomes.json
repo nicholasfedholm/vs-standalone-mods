@@ -1,0 +1,218 @@
+{
+ "NorthernRealms": [
+  "pacific nearctic",
+  "atlantic nearctic",
+  "atlantic palearctic",
+  "central palearctic",
+  "eastern palearctic",
+  "pacific palearctic"
+ ],
+ "SouthernRealms": [
+  "pacific neotropic",
+  "atlantic neotropic",
+  "atlantic afrotropic",
+  "eastern afrotropic",
+  "australasian",
+  "oceanic"
+ ],
+ "TreeBiomes": {
+  "abiesbalsamea": [
+   "atlantic nearctic"
+  ],
+  "alnusglutinosa": [
+   "atlantic palearctic"
+  ],
+  "larixlaricina": [
+   "pacific nearctic",
+   "atlantic nearctic"
+  ],
+  "piceaglauca": [
+   "pacific nearctic",
+   "atlantic nearctic"
+  ],
+  "piceaglaucasmall": [
+   "pacific nearctic",
+   "atlantic nearctic"
+  ],
+  "piceamariana": [
+   "pacific nearctic",
+   "atlantic nearctic"
+  ],
+  "pinussibirica": [
+   "central palearctic",
+   "eastern palearctic"
+  ],
+  "populustremuloides": [
+   "pacific nearctic",
+   "atlantic nearctic"
+  ],
+  "quercuspetraea": [
+   "atlantic palearctic"
+  ]
+ },
+ "BlockPatchBiomes": {
+  "*-cornuscanadensis-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "pacific palearctic"
+  ],
+  "*-eriophorumcallitrix-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-humuluslupulus-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "*-rosagallica-*": [
+   "atlantic palearctic"
+  ],
+  "*-rosamajalis-*": [
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-angelicaarchangelica-*": [
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "*-lactucasativa-*": [
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "*-cetrariaislandica": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-juniperushorizontalis": [
+   "pacific nearctic",
+   "atlantic nearctic"
+  ],
+  "*-sphagnumaustinii": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic"
+  ],
+  "*-sphagnumcapillifolium": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-bergeniacrassifolia-*": [
+   "eastern palearctic"
+  ],
+  "*-calthanatans-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-cirsiumhelenioides-*": [
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "*-digitalispurpurea-*": [
+   "atlantic palearctic"
+  ],
+  "*-hemerocallislilioasphodelus-*": [
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-irisiberica-*": [
+   "central palearctic"
+  ],
+  "*-oreomeconlapponica-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-pedicularisverticillata-*": [
+   "pacific nearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-rhododendronaureum-*": [
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-rhododendronponticum-*": [
+   "atlantic palearctic"
+  ],
+  "*-salixarctica-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-sarraceniapurpurea-*": [
+   "pacific nearctic",
+   "atlantic nearctic"
+  ],
+  "*-sileneacaulis-*": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "*-taraxacumofficinale-*": [
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic"
+  ],
+  "*-trifoliumpratense-*": [
+   "atlantic palearctic",
+   "central palearctic"
+  ],
+  "*-typhaminima-*": [
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic"
+  ],
+  "*-violatricolor-*": [
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic"
+  ],
+  "*-ascophyllumnodosum": [
+   "atlantic nearctic",
+   "atlantic palearctic"
+  ],
+  "*-calthanatans": [
+   "pacific nearctic",
+   "atlantic nearctic",
+   "central palearctic",
+   "eastern palearctic",
+   "pacific palearctic"
+  ],
+  "*-laminariadigitata": [
+   "atlantic nearctic",
+   "atlantic palearctic"
+  ],
+  "*-stipapennata-*": [
+   "atlantic palearctic",
+   "central palearctic",
+   "eastern palearctic"
+  ]
+ }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "op": "replace",
+    "file": "game:worldgen/treegen/piceaglaucasmall.json",
+    "path": "/treeBlocks/leavesBlockCode",
+    "value": "floralzonescircumborealregion:leaves-grown-piceaglauca",
+    "dependsOn": [
+      {
+        "modid": "floralzonescircumborealregion"
+      },
+      {
+        "modid": "vsecomachina"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "file": "game:worldgen/treegen/piceaglaucasmall.json",
+    "path": "/treeBlocks/leavesBranchyBlockCode",
+    "value": "floralzonescircumborealregion:leavesbranchy-grown-piceaglauca",
+    "dependsOn": [
+      {
+        "modid": "floralzonescircumborealregion"
+      },
+      {
+        "modid": "vsecomachina"
+      }
+    ]
+  }
+]

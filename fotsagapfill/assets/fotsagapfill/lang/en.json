@@ -1,0 +1,11 @@
+{
+ "item-creature-arctodus-simus-adult-female": "Giant Short-faced Bear (Female)",
+ "item-creature-arctodus-simus-adult-male": "Giant Short-faced Bear (Male)",
+ "item-dead-creature-arctodus-simus-adult-female": "Dead Giant Short-faced Bear (Female)",
+ "item-dead-creature-arctodus-simus-adult-male": "Dead Giant Short-faced Bear (Male)",
+ "game:prefixandcreature-arctodus-simus-adult-*": "a giant short-faced bear",
+ "game:prefixandcreature-arctodussimusadultfemale": "a giant short-faced bear",
+ "game:prefixandcreature-arctodussimusadultmale": "a giant short-faced bear",
+ "creaturegroup-arctodus": "Giant Short-faced Bear",
+ "game:creaturegroup-arctodus": "Giant Short-faced Bear"
+}
