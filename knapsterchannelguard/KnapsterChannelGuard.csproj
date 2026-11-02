@@ -8,7 +8,7 @@
     <GenerateDependencyFile>false</GenerateDependencyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="VintagestoryAPI"><HintPath>%APPDATA%\Vintagestory\VintagestoryAPI.dll</HintPath><Private>false</Private></Reference>
-    <Reference Include="0Harmony"><HintPath>%APPDATA%\Vintagestory\Lib\0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="VintagestoryAPI"><HintPath>$(APPDATA)\Vintagestory\VintagestoryAPI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(APPDATA)\Vintagestory\Lib\0Harmony.dll</HintPath><Private>false</Private></Reference>
   </ItemGroup>
 </Project>

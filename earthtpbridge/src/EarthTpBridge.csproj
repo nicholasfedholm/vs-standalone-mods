@@ -8,7 +8,7 @@
     <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
     <NetRuntimeDir>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.14</NetRuntimeDir>
     <AssemblyName>EarthTpBridge</AssemblyName>
-    <VINTAGE_STORY Condition="'$(VINTAGE_STORY)' == ''">%APPDATA%\Vintagestory</VINTAGE_STORY>
+    <VINTAGE_STORY Condition="'$(VINTAGE_STORY)' == ''">$(APPDATA)\Vintagestory</VINTAGE_STORY>
     <EARTH_DIR>..\..\work\extract\earth-1.0.1</EARTH_DIR>
   </PropertyGroup>
 
