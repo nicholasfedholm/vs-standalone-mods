@@ -5,7 +5,6 @@ Source for our standalone Vintage Story 1.22.7 mods. JSON-only mods are just ass
 | folder | modid | author (per modinfo) | what it does | ModDB status |
 |---|---|---|---|---|
 | sharpscale | sharpscale | Nick | Replaces the nearest-neighbour upscale used when render scale is below 1 with a bilinear plus contrast-adaptive sharpening pass, or an FSR 1 (EASU + RCAS) pass. | not on ModDB |
-| earthtpbridge | earthtpbridge | Nick | In Andris Earth worlds only: stands Terra Prety's patches down and adds Terra Prety landform detail on top of Earth's real-world heights, faded out near rivers and coasts. | not on ModDB |
 | earth-realms/src/earthflagships | earthflagships | Nick | Earth worlds only: keeps 14 flagship LoP dinosaur families (incl. | not on ModDB |
 | earth-realms/src/earthflora | earthflora | Nick | Earth worlds only: keeps Floral Zones plants in their home floristic regions. | not on ModDB |
 | oregonebony | oregonebony | Nick | Adds an ebony tree generation row for cool, very wet temperate forest (the Pacific Northwest envelope) in Earth worlds. | not on ModDB |
