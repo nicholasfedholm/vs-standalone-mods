@@ -4,7 +4,6 @@ Source for our standalone Vintage Story 1.22.7 mods. JSON-only mods are just ass
 
 | folder | modid | author (per modinfo) | what it does | ModDB status |
 |---|---|---|---|---|
-| sharpscale | sharpscale | Nick | Replaces the nearest-neighbour upscale used when render scale is below 1 with a bilinear plus contrast-adaptive sharpening pass, or an FSR 1 (EASU + RCAS) pass. | not on ModDB |
 | fotsagapfill | fotsagapfill | Nick (generated) | Adds missing Stone Age fauna as variants of installed Fauna of the Stone Age packs (plus one own-domain entity derived from the vanilla bear). | not on ModDB |
 | seeddropratefloracompat | seeddropratefloracompat | Nick | Applies Seed Drop Rate multipliers (crops x3, tree seeds x5) to Floral Zones crops and tree leaves. | not on ModDB |
 | ecomachinafloralzonescompat | ecomachinafloralzones | local compat patch | Lets Eco Machina's foliage treatment apply to Floral Zones Cape Region trees and the small Circumboreal white spruce, which generate with -placed- leaves that Eco Machina skips. | not on ModDB |
